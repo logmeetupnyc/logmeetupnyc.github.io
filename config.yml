@@ -347,6 +347,17 @@ params:
       linkedin: "https://www.linkedin.com/in/yuanqi-du-523968148" 
       googleScholar: "https://scholar.google.com/citations?user=fAc_zZMAAAAJ&hl=en" # Add the Google Scholar URL here 
 
+
+    - name: "Yingheng Wang"
+      logo: "/img/yingheng.jpg"
+      email: "yingheng@cs.cornell.edu"
+      affiliation: "Cornell University"
+      url: ""
+      home: "isjakewong.github.io"
+      linkedin: "https://www.linkedin.com/in/yingheng-w-7b8066171/" 
+      googleScholar: "https://scholar.google.com/citations?user=4WEa7tMAAAAJ&hl=en"
+
+
     # - name: "Samuel Rey"
     #   logo: "/img/SamuelRey.jpg"
     #   email: "samuel.rey.escudero@urjc.es"
@@ -356,8 +367,8 @@ params:
     #   googleScholar: "https://scholar.google.com/citations?user=fUy5BM4AAAAJ&hl=es"
 
   Team:
-    - name: "Yingheng"
-    - name: "Dereck"
+    # - name: "Yingheng"
+    - name: "Dereck Lim"
     # - name: "Sergio Rozada"
     # - name: "Víctor Tenorio"
     # - name: "Bianca Radu"
