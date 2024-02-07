@@ -58,10 +58,10 @@ params:
   Schedule:
 
     - name: "Registration and Reception"
-      time: "Thursday 8h30-9h00"
+      time: "Thursday 08h30-09h15"
 
     - name: "Opening NYC LoG"
-      time: "Thursday 9h30-10h30"
+      time: "Thursday 09h15-09h30"
 
     - name: "aa" # Name Surname
       photo: "/img/bryan.jpg"
@@ -75,7 +75,7 @@ params:
         #text: "@linus"
       presentation:
         title: "Bryan Perozzi" # Speaker Name
-        time: "Thursday 11h00-12h00"
+        time: "Thursday 09h30-10h10"
 
     - name: "aa" # Name Surname
       photo: "/img/ricky.jpg"
@@ -89,25 +89,34 @@ params:
         #text: "@linus"
       presentation:
         title: "Ricky Tian Qi Chen" # Speaker Name
-        time: "Thursday 12h00-13h00"
+        time: "Thursday 10h10-10h50"
 
-    # - name: "Sessions NYC LoG ()"
-    #   time: "Thursday 12h20-14h00"
+    - name: "Invited Talk"
+      time: "Thursday 10h50-11h30"
 
-    - name: "Lunch time (lunch not provided)"
-      time: "Thursday 14h00-16h30"
+    - name: "Lunch Break and Social"
+      time: "Thursday 11h30-13h00"
 
-    # - name: "Program LoG (opening)"
-    #   time: "Thursday 16h30-17h00"
+    - name: "Invited Talk"
+      time: "Thursday 13h00-13h40"
 
-    # - name: "Program LoG (oral)"
-    #   time: "Thursday 17h00-18h00"
+    - name: "Spotlight Talk"
+      time: "Thursday 13h40-14h40"
 
-    # - name: "Program LoG (keynote)"
-    #   time: "Thursday 18h00-19h00"
+    - name: "Invited Talk"
+      time: "Thursday 14h40-15h20"
+      
+    - name: "Invited Talk"
+      time: "Thursday 15h20-16h00"
+    
+    - name: "Poster Session"
+      time: "Thursday 16h00-17h00"
 
 
     ##### Friday
+
+
+
     - name: "aa" # Name Surname
       photo: "/img/Anton.jpg"
       abstract: ""
@@ -119,7 +128,10 @@ params:
       #  text: "WebPage"
       presentation:
         title: "Anton Tsitsulin" #Speaker Name
-        time: "Friday - 09h30-10h30"
+        time: "Friday - 09h00-09h40"
+
+    - name: "Panel Discussion"
+      time: "Thursday 09h40-10h40"
 
     - name: "aa" # Name Surname
       photo: "/img/Shub.jpg"
@@ -132,7 +144,7 @@ params:
       #  text: "WebPage"
       presentation:
         title: "Shubhendu Trivedi" #Speaker Name
-        time: "Friday - 10h30-11h30"
+        time: "Friday - 10h40-11h20"
 
 
     - name: "aa" # Name Surname
@@ -146,16 +158,16 @@ params:
       #  text: "WebPage"
       presentation:
         title: "Michael S Albergo" #Speaker Name
-        time: "Friday - 11h30-12h20"
+        time: "Friday - 11h20-12h00"
 
-    - name: "Refreshments"
-      time: "Friday - 12h20-12h40"
+    # - name: "Refreshments"
+    #   time: "Friday - 12h00-13h30"
 
     # - name: "Sessions NYC LoG (Tue-2)"
     #   time: "Friday - 12h40-14h00"
 
-    - name: "Lunch time (lunch not provided)"
-      time: "Friday - 14h00-16h00"
+    - name: "Lunch Break and Social"
+      time: "Friday - 12h00-13h30"
 
     - name: "aa" # Name Surname
       photo: "/img/paco.png"
@@ -168,10 +180,22 @@ params:
       #  text: "WebPage"
       presentation:
         title: "Francisco Villaescusa-Navarro" #Speaker Name
-        time: "Friday - 11h30-12h20"
+        time: "Friday - 13h30-14h10"
 
-    - name: "Refreshments"
-      time: "Friday - 17h00-17h30"
+    - name: "Invited Talk"
+      time: "Thursday 14h10-14h50"
+      
+    - name: "Invited Talk"
+      time: "Thursday 14h50-15h30"
+
+    - name: "Poster Session"
+      time: "Thursday 15h30-16h30"
+    
+    - name: "Closing Remarks"
+      time: "Thursday 16h30-16h40"
+
+    # - name: "Refreshments"
+    #   time: "Friday - 17h00-17h30"
 
     # - name: "Discussion"
     #   time: "Friday - 17h30-18h00"
@@ -357,6 +381,15 @@ params:
       linkedin: "https://www.linkedin.com/in/yingheng-w-7b8066171/" 
       googleScholar: "https://scholar.google.com/citations?user=4WEa7tMAAAAJ&hl=en"
 
+    - name: "Derek Lim"
+      logo: "/img/Dereck.jpg"
+      email: "dereklim@mit.edu"
+      affiliation: "MIT"
+      url: ""
+      home: "cptq.github.io"
+      linkedin: "https://www.linkedin.com/in/lim-derek/" 
+      googleScholar: "https://scholar.google.com/citations?user=y9YTBIsAAAAJ&hl=en"
+
 
     # - name: "Samuel Rey"
     #   logo: "/img/SamuelRey.jpg"
@@ -368,7 +401,7 @@ params:
 
   Team:
     # - name: "Yingheng"
-    - name: "Dereck Lim"
+    # - name: "Dereck Lim"
     # - name: "Sergio Rozada"
     # - name: "Víctor Tenorio"
     # - name: "Bianca Radu"
