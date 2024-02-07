@@ -91,8 +91,18 @@ params:
         title: "Ricky Tian Qi Chen" # Speaker Name
         time: "Thursday 10h10-10h50"
 
-    - name: "Invited Talk"
-      time: "Thursday 10h50-11h30"
+    - name: "aa" # Name Surname
+      photo: "/img/mengjia.png"
+      abstract: ""
+      bio: "Mengjia Xu is currently an Assistant Professor at Department of Data Science, Ying Wu College of Computing, NJIT. She also holds a Research Affiliate position with the MIT NSF Center for Brains, Minds, and Machines (CBMM) at McGovern Institute for Brain Research. "
+        #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
+      company: "New Jersey Institute of Technology" # Cat Foundation
+      link:
+        href: "https://www.professoren.tum.de/en/heckel-reinhard"
+      #  text: "WebPage"
+      presentation:
+        title: "Mengjia Xu" #Speaker Name
+        time: "Thursday 10h50-11h30"
 
     - name: "Lunch Break and Social"
       time: "Thursday 11h30-13h00"
