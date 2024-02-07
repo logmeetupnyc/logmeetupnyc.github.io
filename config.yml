@@ -58,7 +58,7 @@ params:
   Schedule:
 
     - name: "Registration and Reception"
-      time: "Thursday 9h30-9h30"
+      time: "Thursday 8h30-9h00"
 
     - name: "Opening NYC LoG"
       time: "Thursday 9h30-10h30"
@@ -91,20 +91,20 @@ params:
         title: "Ricky Tian Qi Chen" # Speaker Name
         time: "Thursday 12h00-13h00"
 
-    - name: "Sessions NYC LoG ()"
-      time: "Thursday 12h20-14h00"
+    # - name: "Sessions NYC LoG ()"
+    #   time: "Thursday 12h20-14h00"
 
     - name: "Lunch time (lunch not provided)"
       time: "Thursday 14h00-16h30"
 
-    - name: "Program LoG (opening)"
-      time: "Thursday 16h30-17h00"
+    # - name: "Program LoG (opening)"
+    #   time: "Thursday 16h30-17h00"
 
-    - name: "Program LoG (oral)"
-      time: "Thursday 17h00-18h00"
+    # - name: "Program LoG (oral)"
+    #   time: "Thursday 17h00-18h00"
 
-    - name: "Program LoG (keynote)"
-      time: "Thursday 18h00-19h00"
+    # - name: "Program LoG (keynote)"
+    #   time: "Thursday 18h00-19h00"
 
 
     ##### Friday
@@ -173,8 +173,8 @@ params:
     - name: "Refreshments"
       time: "Friday - 17h00-17h30"
 
-    - name: "Discussion"
-      time: "Friday - 17h30-18h00"
+    # - name: "Discussion"
+    #   time: "Friday - 17h30-18h00"
 
 
   #   ##### WEDNESDAY
