@@ -135,20 +135,40 @@ params:
         time: "Friday - 10h30-11h30"
 
 
-    - name: "Sessions NYC LoG (Tue-1)"
-      time: "Friday - 11h00-12h20"
+    - name: "aa" # Name Surname
+      # photo: "/img/reinhard_1_.jpg"
+      abstract: ""
+      bio: "Michael S Albergo is a postdoc at the Courant Institute of Mathematical Sciences."
+        #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
+      company: "Courant Institute of Mathematical Sciences" # Cat Foundation
+      link:
+        href: "https://www.professoren.tum.de/en/heckel-reinhard"
+      #  text: "WebPage"
+      presentation:
+        title: "Michael S Albergo" #Speaker Name
+        time: "Friday - 11h30-12h20"
 
     - name: "Refreshments"
       time: "Friday - 12h20-12h40"
 
-    - name: "Sessions NYC LoG (Tue-2)"
-      time: "Friday - 12h40-14h00"
+    # - name: "Sessions NYC LoG (Tue-2)"
+    #   time: "Friday - 12h40-14h00"
 
     - name: "Lunch time (lunch not provided)"
       time: "Friday - 14h00-16h00"
 
-    - name: "Program LoG (keynote Loukas)"
-      time: "Friday - 16h00-17h00"
+    - name: "aa" # Name Surname
+      # photo: "/img/reinhard_1_.jpg"
+      abstract: ""
+      bio: "Francisco Villaescusa-Navarro is a a research scientist at the Simons Foundation in New York City and a visiting research scholar at Princeton University."
+        #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
+      company: "Simons Foundation- Flatiron Institute" # Cat Foundation
+      link:
+        href: "https://www.professoren.tum.de/en/heckel-reinhard"
+      #  text: "WebPage"
+      presentation:
+        title: "Francisco Villaescusa-Navarro" #Speaker Name
+        time: "Friday - 11h30-12h20"
 
     - name: "Refreshments"
       time: "Friday - 17h00-17h30"
