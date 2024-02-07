@@ -49,7 +49,7 @@ params:
   Sponsors:
 
     - name: "NJIT"
-      logo: "/img/logo_urjc-3.jpg"
+      logo: "/img/njit.png"
       url: "https://cs.njit.edu"
 
 
