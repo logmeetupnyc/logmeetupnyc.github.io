@@ -410,7 +410,7 @@ params:
       googleScholar: "https://scholar.google.com/citations?user=5l9n9J8AAAAJ&hl=en&authuser=1"
 
     - name: "Yanbang Wang"
-      logo: "/img/yanbang.jpg"
+      logo: "/img/yangbang.jpg"
       email: "ywangdr@cs.cornell.edu"
       affiliation: "Cornell University"
       url: ""
