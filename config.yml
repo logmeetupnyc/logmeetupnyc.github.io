@@ -400,6 +400,24 @@ params:
       linkedin: "https://www.linkedin.com/in/lim-derek/" 
       googleScholar: "https://scholar.google.com/citations?user=y9YTBIsAAAAJ&hl=en"
 
+    - name: "Jacqueline Maasch"
+      logo: "/img/jacq.png"
+      email: "maasch@cs.cornell.edu"
+      affiliation: "Cornell Tech"
+      url: “”
+      home: "https://jmaasch.github.io/"
+      linkedin: "https://www.linkedin.com/in/jmaasch/"
+      googleScholar: "https://scholar.google.com/citations?user=5l9n9J8AAAAJ&hl=en&authuser=1"
+
+    -name: "Yanbang Wang"
+      logo: "/img/yanbang.jpg"
+      email: "ywangdr@cs.cornell.edu"
+      affiliation: "Cornell University"
+      url: ""
+      home: "https://www.cs.cornell.edu/~ywangdr/"
+      linkedin: "https://www.linkedin.com/in/ywangdr/" 
+      googleScholar: "https://scholar.google.com/citations?user=Ch3YUgsAAAAJ&hl=en"
+
 
     # - name: "Samuel Rey"
     #   logo: "/img/SamuelRey.jpg"
