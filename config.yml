@@ -364,6 +364,15 @@ params:
       linkedin: "https://www.linkedin.com/in/yiannis-koutis-08b3a84" 
       googleScholar: "https://scholar.google.com/citations?user=ONXC8_gAAAAJ&hl=en" 
 
+    - name: "Vincent Oria"
+      logo: "/img/vincent.jpg"
+      email: "vincent.oria@njit.edu"
+      affiliation: "New Jersey Institute of Technology"
+      #url: "https://gohugo.io"
+      home: "https://web.njit.edu/~oria/" 
+      linkedin: "https://www.linkedin.com/in/vincent-oria-7b06a114/" 
+      googleScholar: "https://scholar.google.com/citations?hl=en&user=PlgV6FwAAAAJ&view_op=list_works&sortby=pubdate" 
+
     - name: "Ali Parviz"
       logo: "/img/ali.jpg"
       email: "ap2248@njit.edu"
