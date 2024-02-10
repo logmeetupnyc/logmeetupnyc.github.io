@@ -71,7 +71,7 @@ params:
       representations of social relationships and natural language with neural networks. These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets."
       company: "Google Research" # Cat Foundation
       link:
-        href: "https://eng.ox.ac.uk/people/xiaowen-dong/"
+        href: "https://research.google/people/bryan-perozzi/"
         #text: "@linus"
       presentation:
         title: "Bryan Perozzi" # Speaker Name
@@ -85,7 +85,7 @@ params:
       He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
       company: "Meta AI(FAIR) in NYC" # Cat Foundation
       link:
-        href: "https://eng.ox.ac.uk/people/xiaowen-dong/"
+        href: "https://rtqichen.github.io//"
         #text: "@linus"
       presentation:
         title: "Ricky Tian Qi Chen" # Speaker Name
@@ -98,7 +98,7 @@ params:
         #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
       company: "New Jersey Institute of Technology" # Cat Foundation
       link:
-        href: "https://www.professoren.tum.de/en/heckel-reinhard"
+        href: "https://gracexu182.github.io/"
       #  text: "WebPage"
       presentation:
         title: "Mengjia Xu" #Speaker Name
@@ -134,7 +134,7 @@ params:
         #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
       company: "Google Research" # Cat Foundation
       link:
-        href: "https://www.professoren.tum.de/en/heckel-reinhard"
+        href: "https://tsitsul.in/"
       #  text: "WebPage"
       presentation:
         title: "Anton Tsitsulin" #Speaker Name
@@ -150,7 +150,7 @@ params:
         #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
       company: "MIT" # Cat Foundation
       link:
-        href: "https://www.professoren.tum.de/en/heckel-reinhard"
+        href: "https://people.csail.mit.edu/shubhendu/"
       #  text: "WebPage"
       presentation:
         title: "Shubhendu Trivedi" #Speaker Name
@@ -164,7 +164,7 @@ params:
         #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
       company: "Courant Institute of Mathematical Sciences" # Cat Foundation
       link:
-        href: "https://www.professoren.tum.de/en/heckel-reinhard"
+        href: "http://malbergo.me/"
       #  text: "WebPage"
       presentation:
         title: "Michael S Albergo" #Speaker Name
@@ -186,14 +186,28 @@ params:
         #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
       company: "Simons Foundation- Flatiron Institute" # Cat Foundation
       link:
-        href: "https://www.professoren.tum.de/en/heckel-reinhard"
+        href: "https://franciscovillaescusa.github.io/"
       #  text: "WebPage"
       presentation:
         title: "Francisco Villaescusa-Navarro" #Speaker Name
         time: "Friday - 13h30-14h10"
 
-    - name: "Invited Talk"
-      time: "Thursday 14h10-14h50"
+    - name: "aa" # Name Surname
+      photo: "/img/jie.jpg"
+      abstract: ""
+      bio: "Jie Gao is a Professor of Computer Science department of Rutgers University. From 2005-2019 she was on faculty of Department of Computer Science, Stony Brook University.
+      Her reserach is in the intersection of Algorithm Design, Computational Geometry and Networking applications such as wireless, mobile, and sensor networks, and more recently social networks, trajectory data/privacy, and scheduling problems in robotics and networking."
+        #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
+      company: "Rutgers University" # Cat Foundation
+      link:
+        href: "https://sites.rutgers.edu/jie-gao/"
+      #  text: "WebPage"
+      presentation:
+        title: "Jie Gao" #Speaker Name
+        time: "Friday - 14h10-14h50"
+
+    # - name: "Invited Talk"
+    #   time: "Thursday 14h10-14h50"
       
     - name: "Invited Talk"
       time: "Thursday 14h50-15h30"
@@ -385,8 +399,8 @@ params:
       logo: "/img/yuanqi.jpg"
       email: "yuanqidu@cs.cornell.edu"
       affiliation: "Cornell University"
-      url: "https://yuanqidu.github.io/"
-      # home: "https://yuanqidu.github.io/"
+      # url: "https://yuanqidu.github.io/"
+      home: "https://yuanqidu.github.io/"
       linkedin: "https://www.linkedin.com/in/yuanqi-du-523968148" 
       googleScholar: "https://scholar.google.com/citations?user=fAc_zZMAAAAJ&hl=en" # Add the Google Scholar URL here 
 
@@ -395,8 +409,8 @@ params:
       logo: "/img/yingheng.jpg"
       email: "yingheng@cs.cornell.edu"
       affiliation: "Cornell University"
-      url: "isjakewong.github.io"
-      # home: "isjakewong.github.io"
+      # url: "isjakewong.github.io"
+      home: "https://isjakewong.github.io"
       linkedin: "https://www.linkedin.com/in/yingheng-w-7b8066171/" 
       googleScholar: "https://scholar.google.com/citations?user=4WEa7tMAAAAJ&hl=en"
 
@@ -404,8 +418,8 @@ params:
       logo: "/img/dereck.jpg"
       email: "dereklim@mit.edu"
       affiliation: "MIT"
-      url: "cptq.github.io"
-      # home: "cptq.github.io"
+      # url: "cptq.github.io"
+      home: "cptq.github.io"
       linkedin: "https://www.linkedin.com/in/lim-derek/" 
       googleScholar: "https://scholar.google.com/citations?user=y9YTBIsAAAAJ&hl=en"
 
@@ -413,7 +427,7 @@ params:
       logo: "/img/jacq.png"
       email: "maasch@cs.cornell.edu"
       affiliation: "Cornell Tech"
-      url: “”
+      # url: 
       home: "https://jmaasch.github.io/"
       linkedin: "https://www.linkedin.com/in/jmaasch/"
       googleScholar: "https://scholar.google.com/citations?user=5l9n9J8AAAAJ&hl=en&authuser=1"
@@ -426,15 +440,6 @@ params:
       home: "https://www.cs.cornell.edu/~ywangdr/"
       linkedin: "https://www.linkedin.com/in/ywangdr/" 
       googleScholar: "https://scholar.google.com/citations?user=Ch3YUgsAAAAJ&hl=en"
-
-
-    # - name: "Samuel Rey"
-    #   logo: "/img/SamuelRey.jpg"
-    #   email: "samuel.rey.escudero@urjc.es"
-    #   affiliation: "Universidad Rey Juan Carlos"
-    #   home: "https://gestion2.urjc.es/pdi/ver/samuel.rey.escudero"
-    #   linkedin: "https://www.linkedin.com/in/samuel-rey-escudero-52510abb/" 
-    #   googleScholar: "https://scholar.google.com/citations?user=fUy5BM4AAAAJ&hl=es"
 
   # Team:
     # - name: "Yingheng"
