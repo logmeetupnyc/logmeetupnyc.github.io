@@ -90,10 +90,10 @@ params:
     - name: "Lunch Break and Social"
       time: "Thursday 11h30-13h00"
 
-    - name: "aa" # Name Surname
+    - name: "TBA" # Name Surname
       photo: "/img/ricky.jpg"
       url: "www.example.org"
-      abstract: "aa" 
+      abstract: "" 
       bio: "Ricky Tian Qi Chen is a research scientist  at Meta AI(FAIR) in NYC, where his research is on building simplified abstractions of the world through the lens of dynamical systems and flows.
       He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
       company: "Meta AI(FAIR) in NYC" # Cat Foundation
@@ -107,7 +107,7 @@ params:
     - name: "Spotlight Talk"
       photo: "/img/bryan.jpg"
       url: "www.example.org"
-      abstract: "aa" 
+      abstract: "" 
       bio: "Bryan Perozzi is a senior staff research scientist  at Google NYC, where he develop techniques for learning expressive 
       representations of social relationships and natural language with neural networks. These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets."
       company: "Google Research" # Cat Foundation
@@ -118,7 +118,7 @@ params:
         title: "Bryan Perozzi" # Speaker Name
         time: "Thursday 13h40-14h40"
 
-    - name: "aa" # Name Surname
+    - name: "TBA" # Name Surname
       photo: "/img/mengjia.png"
       abstract: ""
       bio: "Mengjia Xu is currently an Assistant Professor at Department of Data Science, Ying Wu College of Computing, NJIT. She also holds a Research Affiliate position with the MIT NSF Center for Brains, Minds, and Machines (CBMM) at McGovern Institute for Brain Research. "
@@ -131,7 +131,7 @@ params:
         title: "Mengjia Xu" #Speaker Name
         time: "Thursday 14h40-15h20"
       
-    - name: "aa" # Name Surname
+    - name: "TBA" # Name Surname
       photo: "/img/jie.jpg"
       abstract: ""
       bio: "Jie Gao is a Professor of Computer Science department of Rutgers University. From 2005-2019 she was on faculty of Department of Computer Science, Stony Brook University.
@@ -153,7 +153,7 @@ params:
 
 
 
-    - name: "aa" # Name Surname
+    - name: "TBA" # Name Surname
       photo: "/img/Anton.jpg"
       abstract: ""
       bio: "Anton Tsitsulin is a research scientist at google research NYC. He is interested in scalable, principled methods for analyzing graph data in an unsupervised manner."
@@ -169,7 +169,7 @@ params:
     - name: "Panel Discussion"
       time: "Thursday 09h40-10h40"
 
-    - name: "aa" # Name Surname
+    - name: "TBA" # Name Surname
       photo: "/img/Shub.jpg"
       abstract: ""
       bio: "Shubhendu Trivedi is a machine learning researcher at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)"
@@ -205,7 +205,7 @@ params:
     - name: "Lunch Break and Social"
       time: "Friday - 12h00-13h30"
 
-    - name: "aa" # Name Surname
+    - name: "TBA" # Name Surname
       photo: "/img/paco.png"
       abstract: ""
       bio: "Francisco Villaescusa-Navarro is a a research scientist at the Simons Foundation in New York City and a visiting research scholar at Princeton University."
