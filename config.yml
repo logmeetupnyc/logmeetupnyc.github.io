@@ -77,19 +77,19 @@ params:
         title: "Bryan Perozzi" # Speaker Name
         time: "Thursday 09h30-10h10"
 
-    - name: "aa" # Name Surname
-      photo: "/img/ricky.jpg"
-      url: "www.example.org"
-      abstract: "aa" 
-      bio: "Ricky Tian Qi Chen is a research scientist  at Meta AI(FAIR) in NYC, where his research is on building simplified abstractions of the world through the lens of dynamical systems and flows.
-      He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
-      company: "Meta AI(FAIR) in NYC" # Cat Foundation
-      link:
-        href: "https://rtqichen.github.io//"
-        #text: "@linus"
-      presentation:
-        title: "Ricky Tian Qi Chen" # Speaker Name
-        time: "Thursday 10h10-10h50"
+    # - name: "aa" # Name Surname
+    #   photo: "/img/ricky.jpg"
+    #   url: "www.example.org"
+    #   abstract: "aa" 
+    #   bio: "Ricky Tian Qi Chen is a research scientist  at Meta AI(FAIR) in NYC, where his research is on building simplified abstractions of the world through the lens of dynamical systems and flows.
+    #   He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
+    #   company: "Meta AI(FAIR) in NYC" # Cat Foundation
+    #   link:
+    #     href: "https://rtqichen.github.io//"
+    #     #text: "@linus"
+    #   presentation:
+    #     title: "Ricky Tian Qi Chen" # Speaker Name
+    #     time: "Thursday 10h10-10h50"
 
     - name: "aa" # Name Surname
       photo: "/img/mengjia.png"
@@ -157,18 +157,18 @@ params:
         time: "Friday - 10h40-11h20"
 
 
-    - name: "aa" # Name Surname
-      photo: "/img/micheal.jpg"
-      abstract: ""
-      bio: "Michael S Albergo is a postdoc at the Courant Institute of Mathematical Sciences."
-        #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
-      company: "Courant Institute of Mathematical Sciences" # Cat Foundation
-      link:
-        href: "http://malbergo.me/"
-      #  text: "WebPage"
-      presentation:
-        title: "Michael S Albergo" #Speaker Name
-        time: "Friday - 11h20-12h00"
+    # - name: "aa" # Name Surname
+    #   photo: "/img/micheal.jpg"
+    #   abstract: ""
+    #   bio: "Michael S Albergo is a postdoc at the Courant Institute of Mathematical Sciences."
+    #     #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
+    #   company: "Courant Institute of Mathematical Sciences" # Cat Foundation
+    #   link:
+    #     href: "http://malbergo.me/"
+    #   #  text: "WebPage"
+    #   presentation:
+    #     title: "Michael S Albergo" #Speaker Name
+    #     time: "Friday - 11h20-12h00"
 
     # - name: "Refreshments"
     #   time: "Friday - 12h00-13h30"
