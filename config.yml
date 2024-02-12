@@ -63,19 +63,14 @@ params:
     - name: "Opening NYC LoG"
       time: "Thursday 09h15-09h30"
 
-    - name: "aa" # Name Surname
-      photo: "/img/bryan.jpg"
-      url: "www.example.org"
-      abstract: "aa" 
-      bio: "Bryan Perozzi is a senior staff research scientist  at Google NYC, where he develop techniques for learning expressive 
-      representations of social relationships and natural language with neural networks. These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets."
-      company: "Google Research" # Cat Foundation
-      link:
-        href: "https://research.google/people/bryan-perozzi/"
-        #text: "@linus"
-      presentation:
-        title: "Bryan Perozzi" # Speaker Name
-        time: "Thursday 09h30-10h10"
+    - name: "Invited Talk" # Name Surname
+      time: "Thursday 09h30-10h10"
+
+    - name: "Invited Talk"
+      time: "Thursday 10h10-10h50"
+
+    - name: "Invited Talk"
+      time: "Thursday 10h50-11h30"
 
     # - name: "aa" # Name Surname
     #   photo: "/img/ricky.jpg"
@@ -89,7 +84,39 @@ params:
     #     #text: "@linus"
     #   presentation:
     #     title: "Ricky Tian Qi Chen" # Speaker Name
-    #     time: "Thursday 10h10-10h50"
+    #     time: "Thursday 13h00-13h40"
+
+
+    - name: "Lunch Break and Social"
+      time: "Thursday 11h30-13h00"
+
+    - name: "aa" # Name Surname
+      photo: "/img/ricky.jpg"
+      url: "www.example.org"
+      abstract: "aa" 
+      bio: "Ricky Tian Qi Chen is a research scientist  at Meta AI(FAIR) in NYC, where his research is on building simplified abstractions of the world through the lens of dynamical systems and flows.
+      He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
+      company: "Meta AI(FAIR) in NYC" # Cat Foundation
+      link:
+        href: "https://rtqichen.github.io//"
+        #text: "@linus"
+      presentation:
+        title: "Ricky Tian Qi Chen" # Speaker Name
+        time: "Thursday 13h00-13h40"
+
+    - name: "Spotlight Talk"
+      photo: "/img/bryan.jpg"
+      url: "www.example.org"
+      abstract: "aa" 
+      bio: "Bryan Perozzi is a senior staff research scientist  at Google NYC, where he develop techniques for learning expressive 
+      representations of social relationships and natural language with neural networks. These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets."
+      company: "Google Research" # Cat Foundation
+      link:
+        href: "https://research.google/people/bryan-perozzi/"
+        #text: "@linus"
+      presentation:
+        title: "Bryan Perozzi" # Speaker Name
+        time: "Thursday 13h40-14h40"
 
     - name: "aa" # Name Surname
       photo: "/img/mengjia.png"
@@ -102,22 +129,21 @@ params:
       #  text: "WebPage"
       presentation:
         title: "Mengjia Xu" #Speaker Name
-        time: "Thursday 10h50-11h30"
-
-    - name: "Lunch Break and Social"
-      time: "Thursday 11h30-13h00"
-
-    - name: "Invited Talk"
-      time: "Thursday 13h00-13h40"
-
-    - name: "Spotlight Talk"
-      time: "Thursday 13h40-14h40"
-
-    - name: "Invited Talk"
-      time: "Thursday 14h40-15h20"
+        time: "Thursday 14h40-15h20"
       
-    - name: "Invited Talk"
-      time: "Thursday 15h20-16h00"
+    - name: "aa" # Name Surname
+      photo: "/img/jie.jpg"
+      abstract: ""
+      bio: "Jie Gao is a Professor of Computer Science department of Rutgers University. From 2005-2019 she was on faculty of Department of Computer Science, Stony Brook University.
+      Her reserach is in the intersection of Algorithm Design, Computational Geometry and Networking applications such as wireless, mobile, and sensor networks, and more recently social networks, trajectory data/privacy, and scheduling problems in robotics and networking."
+        #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
+      company: "Rutgers University" # Cat Foundation
+      link:
+        href: "https://sites.rutgers.edu/jie-gao/"
+      #  text: "WebPage"
+      presentation:
+        title: "Jie Gao" #Speaker Name
+        time: "Thursday 15h20-16h00"
     
     - name: "Poster Session"
       time: "Thursday 16h00-17h00"
@@ -204,10 +230,10 @@ params:
       #  text: "WebPage"
       presentation:
         title: "Jie Gao" #Speaker Name
-        time: "Friday - 14h10-14h50"
+        time: "Thursday 15h20-16h00"
 
-    # - name: "Invited Talk"
-    #   time: "Thursday 14h10-14h50"
+    - name: "Invited Talk"
+      time: "Thursday 14h10-14h50"
       
     - name: "Invited Talk"
       time: "Thursday 14h50-15h30"
