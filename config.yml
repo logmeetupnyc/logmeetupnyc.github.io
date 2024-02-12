@@ -218,19 +218,19 @@ params:
         title: "Francisco Villaescusa-Navarro" #Speaker Name
         time: "Friday - 13h30-14h10"
 
-    - name: "aa" # Name Surname
-      photo: "/img/jie.jpg"
-      abstract: ""
-      bio: "Jie Gao is a Professor of Computer Science department of Rutgers University. From 2005-2019 she was on faculty of Department of Computer Science, Stony Brook University.
-      Her reserach is in the intersection of Algorithm Design, Computational Geometry and Networking applications such as wireless, mobile, and sensor networks, and more recently social networks, trajectory data/privacy, and scheduling problems in robotics and networking."
-        #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
-      company: "Rutgers University" # Cat Foundation
-      link:
-        href: "https://sites.rutgers.edu/jie-gao/"
-      #  text: "WebPage"
-      presentation:
-        title: "Jie Gao" #Speaker Name
-        time: "Thursday 15h20-16h00"
+    # - name: "aa" # Name Surname
+    #   photo: "/img/jie.jpg"
+    #   abstract: ""
+    #   bio: "Jie Gao is a Professor of Computer Science department of Rutgers University. From 2005-2019 she was on faculty of Department of Computer Science, Stony Brook University.
+    #   Her reserach is in the intersection of Algorithm Design, Computational Geometry and Networking applications such as wireless, mobile, and sensor networks, and more recently social networks, trajectory data/privacy, and scheduling problems in robotics and networking."
+    #     #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
+    #   company: "Rutgers University" # Cat Foundation
+    #   link:
+    #     href: "https://sites.rutgers.edu/jie-gao/"
+    #   #  text: "WebPage"
+    #   presentation:
+    #     title: "Jie Gao" #Speaker Name
+    #     time: "Thursday 15h20-16h00"
 
     - name: "Invited Talk"
       time: "Thursday 14h10-14h50"
