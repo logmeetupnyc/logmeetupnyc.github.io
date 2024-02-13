@@ -167,7 +167,7 @@ params:
         time: "Friday - 09h00-09h40"
 
     - name: "Panel Discussion"
-      time: "Thursday 09h40-10h40"
+      time: "Friday 09h40-10h40"
 
     - name: "Invited Talk"
       time: "Friday - 10h40-11h20"
@@ -236,16 +236,16 @@ params:
     #     time: "Thursday 15h20-16h00"
 
     - name: "Invited Talk"
-      time: "Thursday 14h10-14h50"
+      time: "Friday 14h10-14h50"
       
     - name: "Invited Talk"
-      time: "Thursday 14h50-15h30"
+      time: "Friday 14h50-15h30"
 
     - name: "Poster Session"
-      time: "Thursday 15h30-16h30"
+      time: "Friday 15h30-16h30"
     
     - name: "Closing Remarks"
-      time: "Thursday 16h30-16h40"
+      time: "Friday 16h30-16h40"
 
 
 
