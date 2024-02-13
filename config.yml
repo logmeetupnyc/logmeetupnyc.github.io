@@ -169,18 +169,21 @@ params:
     - name: "Panel Discussion"
       time: "Thursday 09h40-10h40"
 
-    - name: "TBA" # Name Surname
-      photo: "/img/Shub.jpg"
-      abstract: ""
-      bio: "Shubhendu Trivedi is a machine learning researcher at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)"
-        #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
-      company: "MIT" # Cat Foundation
-      link:
-        href: "https://people.csail.mit.edu/shubhendu/"
-      #  text: "WebPage"
-      presentation:
-        title: "Shubhendu Trivedi" #Speaker Name
-        time: "Friday - 10h40-11h20"
+    - name: "Invited Talk"
+      time: "Friday - 10h40-11h20"
+
+    # - name: "TBA" # Name Surname
+    #   photo: "/img/Shub.jpg"
+    #   abstract: ""
+    #   bio: "Shubhendu Trivedi is a machine learning researcher at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)"
+    #     #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
+    #   company: "MIT" # Cat Foundation
+    #   link:
+    #     href: "https://people.csail.mit.edu/shubhendu/"
+    #   #  text: "WebPage"
+    #   presentation:
+    #     title: "Shubhendu Trivedi" #Speaker Name
+    #     time: "Friday - 10h40-11h20"
 
 
     # - name: "aa" # Name Surname
