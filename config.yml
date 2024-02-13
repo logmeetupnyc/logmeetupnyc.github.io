@@ -208,12 +208,13 @@ params:
     - name: "Lunch Break and Social"
       time: "Friday - 12h00-13h30"
 
-    - name: "TBA" # Name Surname
+    - name: "Learning the laws and composition of the Universe with cosmic graphs" # Name Surname
       photo: "/img/paco.png"
-      abstract: ""
-      bio: "Francisco Villaescusa-Navarro is a a research scientist at the Simons Foundation in New York City and a visiting research scholar at Princeton University."
+      abstract: "Cosmology is a branch of astrophysics dedicated to the study of the laws and constituents of the Universe. To achieve this, cosmologists look at the spatial distribution of galaxies in the Universe with the goal of finding patterns in that distribution that reveal the fundamental physics behind the dynamics of the cosmos. In this talk, I will show how deep learning is revolutionizing the way cosmologists tackle decades-old problems and how graph neural networks can be used in combination with state-of-the-art hydrodynamic simulations to maximize the amount of information that can be extracted from cosmological observations."
+      bio: "Francisco (Paco) Villaescusa-Navarro is a research scientist at the Flatiron Institute in New York City. He did his PhD at the University of Valencia in Spain. He held postdoctoral positions at the Astronomical Observatory of Trieste, Italy, and the Center for Computational Astrophysics in New York before becoming an associate research scholar at Princeton University, where he holds a visiting research scholar position. Paco is the main architect of the Quijote simulations, the largest suite of cosmological N-body simulations ever run. He is also part of the CAMELS core team that designed and ran the largest set of state-of-the-art hydrodynamic simulations to date. Paco combines the output of numerical simulations with machine learning methods to develop theoretical models to extract the maximum amount of information from cosmological surveys in order to unveil the Universe’s mysteries."
+      # bio: "Francisco Villaescusa-Navarro is a a research scientist at the Simons Foundation in New York City and a visiting research scholar at Princeton University."
         #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
-      company: "Simons Foundation- Flatiron Institute" # Cat Foundation
+      company: "Flatiron Institute" # Cat Foundation
       link:
         href: "https://franciscovillaescusa.github.io/"
       #  text: "WebPage"
