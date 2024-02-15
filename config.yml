@@ -63,8 +63,18 @@ params:
     - name: "Opening NYC LoG"
       time: "Thursday 09h15-09h30"
 
-    - name: "Invited Talk" # Name Surname
-      time: "Thursday 09h30-10h10"
+    - name: "TBA" # Name Surname
+      photo: "/img/Anton.jpg"
+      abstract: ""
+      bio: "Anton Tsitsulin is a research scientist at google research NYC. He is interested in scalable, principled methods for analyzing graph data in an unsupervised manner."
+        #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
+      company: "Google Research" # Cat Foundation
+      link:
+        href: "https://tsitsul.in/"
+      #  text: "WebPage"
+      presentation:
+        title: "Anton Tsitsulin" #Speaker Name
+        time: "Thursday 09h30-10h10"
 
     - name: "aa" # Name Surname
       photo: "/img/micheal.jpg"
@@ -184,20 +194,21 @@ params:
 
     ##### Friday
 
+    - name: "Invited Talk" # Name Surname
+      time: "Friday - 09h00-09h40"
 
-
-    - name: "TBA" # Name Surname
-      photo: "/img/Anton.jpg"
-      abstract: ""
-      bio: "Anton Tsitsulin is a research scientist at google research NYC. He is interested in scalable, principled methods for analyzing graph data in an unsupervised manner."
-        #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
-      company: "Google Research" # Cat Foundation
-      link:
-        href: "https://tsitsul.in/"
-      #  text: "WebPage"
-      presentation:
-        title: "Anton Tsitsulin" #Speaker Name
-        time: "Friday - 09h00-09h40"
+    # - name: "TBA" # Name Surname
+    #   photo: "/img/Anton.jpg"
+    #   abstract: ""
+    #   bio: "Anton Tsitsulin is a research scientist at google research NYC. He is interested in scalable, principled methods for analyzing graph data in an unsupervised manner."
+    #     #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
+    #   company: "Google Research" # Cat Foundation
+    #   link:
+    #     href: "https://tsitsul.in/"
+    #   #  text: "WebPage"
+    #   presentation:
+    #     title: "Anton Tsitsulin" #Speaker Name
+    #     time: "Friday - 09h00-09h40"
 
     - name: "Panel Discussion"
       time: "Friday 09h40-10h40"
