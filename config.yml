@@ -66,11 +66,38 @@ params:
     - name: "Invited Talk" # Name Surname
       time: "Thursday 09h30-10h10"
 
-    - name: "Invited Talk"
-      time: "Thursday 10h10-10h50"
+    - name: "aa" # Name Surname
+      photo: "/img/micheal.jpg"
+      abstract: ""
+      bio: "Michael S Albergo is a postdoc at the Courant Institute of Mathematical Sciences."
+        #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
+      company: "Courant Institute of Mathematical Sciences" # Cat Foundation
+      link:
+        href: "http://malbergo.me/"
+      #  text: "WebPage"
+      presentation:
+        title: "Michael S Albergo" #Speaker Name
+        time: "Thursday 10h10-10h50"
 
-    - name: "Invited Talk"
-      time: "Thursday 10h50-11h30"
+    - name: "Coffee Break"
+      time: "Thursday 10h50-11h10"
+
+    - name: "Spotlight Talk"
+      photo: "/img/bryan.jpg"
+      url: "www.example.org"
+      abstract: "" 
+      bio: "Bryan Perozzi is a senior staff research scientist  at Google NYC, where he develop techniques for learning expressive 
+      representations of social relationships and natural language with neural networks. These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets."
+      company: "Google Research" # Cat Foundation
+      link:
+        href: "https://research.google/people/bryan-perozzi/"
+        #text: "@linus"
+      presentation:
+        title: "Bryan Perozzi" # Speaker Name
+        time: "Thursday 11h10-12h10"
+
+    # - name: "Invited Talk"
+    #   time: "Thursday 10h50-11h30"
 
     # - name: "aa" # Name Surname
     #   photo: "/img/ricky.jpg"
@@ -88,7 +115,7 @@ params:
 
 
     - name: "Lunch Break and Social"
-      time: "Thursday 11h30-13h00"
+      time: "Thursday 12h10-13h30"
 
     - name: "TBA" # Name Surname
       photo: "/img/ricky.jpg"
@@ -102,21 +129,21 @@ params:
         #text: "@linus"
       presentation:
         title: "Ricky Tian Qi Chen" # Speaker Name
-        time: "Thursday 13h00-13h40"
+        time: "Thursday 13h30-14h10"
 
-    - name: "Spotlight Talk"
-      photo: "/img/bryan.jpg"
-      url: "www.example.org"
-      abstract: "" 
-      bio: "Bryan Perozzi is a senior staff research scientist  at Google NYC, where he develop techniques for learning expressive 
-      representations of social relationships and natural language with neural networks. These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets."
-      company: "Google Research" # Cat Foundation
-      link:
-        href: "https://research.google/people/bryan-perozzi/"
-        #text: "@linus"
-      presentation:
-        title: "Bryan Perozzi" # Speaker Name
-        time: "Thursday 13h40-14h40"
+    # - name: "Spotlight Talk"
+    #   photo: "/img/bryan.jpg"
+    #   url: "www.example.org"
+    #   abstract: "" 
+    #   bio: "Bryan Perozzi is a senior staff research scientist  at Google NYC, where he develop techniques for learning expressive 
+    #   representations of social relationships and natural language with neural networks. These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets."
+    #   company: "Google Research" # Cat Foundation
+    #   link:
+    #     href: "https://research.google/people/bryan-perozzi/"
+    #     #text: "@linus"
+    #   presentation:
+    #     title: "Bryan Perozzi" # Speaker Name
+    #     time: "Thursday 13h40-14h40"
 
     - name: "TBA" # Name Surname
       photo: "/img/mengjia.png"
@@ -129,8 +156,11 @@ params:
       #  text: "WebPage"
       presentation:
         title: "Mengjia Xu" #Speaker Name
-        time: "Thursday 14h40-15h20"
-      
+        time: "Thursday 14h10-14h50"
+
+    - name: "Coffee Break"
+      time: "Thursday 14h50-15h10"
+
     - name: "TBA" # Name Surname
       photo: "/img/jie.jpg"
       abstract: ""
@@ -143,10 +173,13 @@ params:
       #  text: "WebPage"
       presentation:
         title: "Jie Gao" #Speaker Name
-        time: "Thursday 15h20-16h00"
+        time: "Thursday 15h10-15h50"
+
+    - name: "Invited Talk" # Name Surname
+      time: "Thursday 15h50-16h30"
     
     - name: "Poster Session"
-      time: "Thursday 16h00-17h00"
+      time: "Thursday 16h30-17h30"
 
 
     ##### Friday
@@ -184,20 +217,6 @@ params:
     #   presentation:
     #     title: "Shubhendu Trivedi" #Speaker Name
     #     time: "Friday - 10h40-11h20"
-
-
-    # - name: "aa" # Name Surname
-    #   photo: "/img/micheal.jpg"
-    #   abstract: ""
-    #   bio: "Michael S Albergo is a postdoc at the Courant Institute of Mathematical Sciences."
-    #     #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
-    #   company: "Courant Institute of Mathematical Sciences" # Cat Foundation
-    #   link:
-    #     href: "http://malbergo.me/"
-    #   #  text: "WebPage"
-    #   presentation:
-    #     title: "Michael S Albergo" #Speaker Name
-    #     time: "Friday - 11h20-12h00"
 
     # - name: "Refreshments"
     #   time: "Friday - 12h00-13h30"
