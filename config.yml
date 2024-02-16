@@ -171,9 +171,9 @@ params:
     - name: "Coffee Break"
       time: "Thursday 14h50-15h10"
 
-    - name: "TBA" # Name Surname
+    - name: "Graph Ricci Flow and Applications in Network Analysis and Learning" # Name Surname
       photo: "/img/jie.jpg"
-      abstract: ""
+      abstract: "The notion of curvature describes how spaces are bent at each point and Ricci flow deforms the space such that curvature changes in a way analogous to the diffusion of heat. In this talk I will discuss some of our work on discrete Ollivier Ricci curvature defined on graphs. Discrete curvature defined on an edge captures the local connectivity in the neighborhood. In general edges within a densely connected community have positive curvature while edges connecting different communities have negative curvature. By deforming edge weights with respect to curvature one can derive a Ricci flow metric which is robust to edge insertion/deletion. I will present applications of graph Ricci flow in graph analysis and learning, including network alignment, community detection and graph neural networks."
       bio: "Jie Gao is a Professor of Computer Science department of Rutgers University. From 2005-2019 she was on faculty of Department of Computer Science, Stony Brook University.
       Her reserach is in the intersection of Algorithm Design, Computational Geometry and Networking applications such as wireless, mobile, and sensor networks, and more recently social networks, trajectory data/privacy, and scheduling problems in robotics and networking."
         #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
@@ -185,8 +185,23 @@ params:
         title: "Jie Gao" #Speaker Name
         time: "Thursday 15h10-15h50"
 
-    - name: "Invited Talk" # Name Surname
-      time: "Thursday 15h50-16h30"
+    - name: "Learning the laws and composition of the Universe with cosmic graphs" # Name Surname
+      photo: "/img/paco.png"
+      abstract: "Cosmology is a branch of astrophysics dedicated to the study of the laws and constituents of the Universe. To achieve this, cosmologists look at the spatial distribution of galaxies in the Universe with the goal of finding patterns in that distribution that reveal the fundamental physics behind the dynamics of the cosmos. In this talk, I will show how deep learning is revolutionizing the way cosmologists tackle decades-old problems and how graph neural networks can be used in combination with state-of-the-art hydrodynamic simulations to maximize the amount of information that can be extracted from cosmological observations."
+      bio: "Francisco (Paco) Villaescusa-Navarro is a research scientist at the Flatiron Institute in New York City. He did his PhD at the University of Valencia in Spain. He held postdoctoral positions at the Astronomical Observatory of Trieste, Italy, and the Center for Computational Astrophysics in New York before becoming an associate research scholar at Princeton University, where he holds a visiting research scholar position. Paco is the main architect of the Quijote simulations, the largest suite of cosmological N-body simulations ever run. He is also part of the CAMELS core team that designed and ran the largest set of state-of-the-art hydrodynamic simulations to date. Paco combines the output of numerical simulations with machine learning methods to develop theoretical models to extract the maximum amount of information from cosmological surveys in order to unveil the Universe’s mysteries."
+      # bio: "Francisco Villaescusa-Navarro is a a research scientist at the Simons Foundation in New York City and a visiting research scholar at Princeton University."
+        #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
+      company: "Flatiron Institute" # Cat Foundation
+      link:
+        href: "https://franciscovillaescusa.github.io/"
+      #  text: "WebPage"
+      presentation:
+        title: "Francisco Villaescusa-Navarro" #Speaker Name
+        time: "Thursday 15h50-16h30"
+
+
+    # - name: "Invited Talk" # Name Surname
+    #   time: "Thursday 15h50-16h30"
     
     - name: "Poster Session"
       time: "Thursday 16h30-17h30"
@@ -194,21 +209,20 @@ params:
 
     ##### Friday
 
-    - name: "Invited Talk" # Name Surname
-      time: "Friday - 09h00-09h40"
+    # - name: "Invited Talk" # Name Surname
+    #   time: "Friday - 09h00-09h40"
 
-    # - name: "TBA" # Name Surname
-    #   photo: "/img/Anton.jpg"
-    #   abstract: ""
-    #   bio: "Anton Tsitsulin is a research scientist at google research NYC. He is interested in scalable, principled methods for analyzing graph data in an unsupervised manner."
-    #     #"Professor for Machine Learning at the Department of Computer Engineering at TUM (Technical University of Munich)."
-    #   company: "Google Research" # Cat Foundation
-    #   link:
-    #     href: "https://tsitsul.in/"
-    #   #  text: "WebPage"
-    #   presentation:
-    #     title: "Anton Tsitsulin" #Speaker Name
-    #     time: "Friday - 09h00-09h40"
+    - name: "LATENTDOCK: Protein-Protein Docking with Latent Diffusion" # Name Surname
+      photo: "/img/matt.jpg"
+      abstract: "Interactions between proteins form the basis for many biological processes, and understanding their relationships is an area of active research. Computational approaches offer a way to facilitate this understanding without the burden of expensive and time-consuming experiments. Here, we introduce LATENTDOCK, a generative model for protein-protein docking. Our method leverages a diffusion model operating within a geometrically-structured latent space, derived from an encoder producing roto-translational invariant representations of protein complexes. Critically, it is able to perform flexible docking, capturing both backbone and side-chain conformational changes. Furthermore, our model can condition on binding sites, leading to significant performance gains. Empirical evaluations show the efficacy of our approach over relevant baselines, even outperforming models that do not account for flexibility."
+      bio: "Matthew McPartlon is a senior research scientist at VantAI where he works on deep learning models for predicting protein-protein and protein-small molecule interactions. Prior to joining VantAI he completed his PhD in computer science at The University of Chicago under Jinbo Xu. His current research is focused on learning invariant representations of 3D geometry and applying this to structure related problems in biology."
+      company: "VantAI" # Cat Foundation
+      link:
+        href: ""
+      #  text: "WebPage"
+      presentation:
+        title: "Matthew McPartlon" #Speaker Name
+        time: "Friday - 09h00-09h40"
 
     - name: "Panel Discussion"
       time: "Friday 09h40-10h40"
