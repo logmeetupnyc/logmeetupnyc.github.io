@@ -184,29 +184,74 @@ params:
         title: "Matthew McPartlon" #Speaker Name
         time: "Friday - 09h00-09h40"
 
-    - name: "Panel Discussion"
+    - name: "Keynote Talk"
       time: "Friday 09h40-10h40"
 
-    - name: "Invited Talk"
-      time: "Friday - 10h40-11h20"
+    - name: "Coffee Break"
+      time: "Friday 10h40-11h00"
+
+    - name: "TBA" # Name Surname
+      photo: ""
+      abstract: ""
+      bio: "Vasileios Kalantzis is a Senior Research Scientist at IBM T.J. Watson Research Center, NY. Prior to his current role he was a Herman H. Goldstine Memorial Postdoctoral fellow (2018-2019) and Staff Research Scientist (2019-2023). Vasileios obtained his PhD (2018) and MSc (2016) in Computer Science and Engineering from the University of Minnesota, Twin Cities, and his MSc (2014) and MEng (2011) in Computer Engineering from the University of Patras, Greece. His research interests lie in topics in numerical linear algebra, high-performance computing, graph analytics, and randomized algorithms."
+      company: "IBM Research" # Cat Foundation
+      link:
+        href: ""
+      #  text: "WebPage"
+      presentation:
+        title: "Vassilis Kalantzis" #Speaker Name
+        time: "Friday - 11h00-11h40"
 
     - name: "Lunch Break and Social"
-      time: "Friday - 12h00-13h30"
+      time: "Friday - 11h40-13h00"
 
-    - name: "Invited Talk"
-      time: "Friday - 13h30-14h10"
+    - name: "Panel Discussion"
+      time: "Friday - 13h00-14h00"
 
-    - name: "Invited Talk"
-      time: "Friday 14h10-14h50"
+    - name: "TBA" # Name Surname
+      photo: "/img/samuel.jpg"
+      abstract: ""
+      bio: ""
+      company: "Genetech" # Cat Foundation
+      link:
+        href: ""
+      #  text: "WebPage"
+      presentation:
+        title: "Samuel Stanton" #Speaker Name
+        time: "Friday - 14h00-14h40"
+
+    - name: "Coffee Break"
+      time: "Friday 14h40-15h00"
       
-    - name: "Invited Talk"
-      time: "Friday 14h50-15h30"
+    - name: "TBA" # Name Surname
+      photo: "/img/kyra.png"
+      abstract: ""
+      bio: ""
+      company: "Cornell Tech" # Cat Foundation
+      link:
+        href: ""
+      #  text: "WebPage"
+      presentation:
+        title: "Kyra Gan" #Speaker Name
+        time: "Friday - 15h00-15h40"
+    
+    - name: "TBA" # Name Surname
+      photo: "/img/fei.jpeg"
+      abstract: ""
+      bio: ""
+      company: "Weill Cornell Medicine" # Cat Foundation
+      link:
+        href: ""
+      #  text: "WebPage"
+      presentation:
+        title: "Fei Wang" #Speaker Name
+        time: "Friday - 15h40-16h20"
 
     - name: "Poster Session"
-      time: "Friday 15h30-16h30"
+      time: "Friday 16h20-17h00"
     
     - name: "Closing Remarks"
-      time: "Friday 16h30-16h40"
+      time: "Friday 17h00-17h15"
 
 
 
