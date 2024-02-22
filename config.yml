@@ -190,9 +190,19 @@ params:
     - name: "Coffee Break"
       time: "Friday 10h40-11h00"
 
-    - name: "TBA" # Name Surname
+    - name: "Capturing graph directionality using  transformers" # Name Surname
       photo: ""
-      abstract: ""
+      abstract: "Most existing graph transformers typically capture distances between graph nodes and do not
+take edge direction into account. This is a limiting assumption since many graph applications
+need to exploit sophisticated relationships in graph data, such as time, causality, or generic
+dependency constraints. We introduce a novel graph transformer architecture that explicitly
+takes into account the directionality between connected graph nodes. To achieve this, we make
+use of dual encodings to represent both potential roles, i.e., source or target, of each pair
+of vertices linked by a directed edge. These encodings are learned by leveraging the latent
+adjacency information extracted from a directional attention module, localized with $k$-hop
+neighborhood information. Extensive experiments on synthetic and real graph datasets show that
+our approach can lead to accuracy gains. We also discuss an exploration in mapping directed
+graph transformers to quantum computers."
       bio: "Vasileios Kalantzis is a Senior Research Scientist at IBM T.J. Watson Research Center, NY. Prior to his current role he was a Herman H. Goldstine Memorial Postdoctoral fellow (2018-2019) and Staff Research Scientist (2019-2023). Vasileios obtained his PhD (2018) and MSc (2016) in Computer Science and Engineering from the University of Minnesota, Twin Cities, and his MSc (2014) and MEng (2011) in Computer Engineering from the University of Patras, Greece. His research interests lie in topics in numerical linear algebra, high-performance computing, graph analytics, and randomized algorithms."
       company: "IBM Research" # Cat Foundation
       link:
