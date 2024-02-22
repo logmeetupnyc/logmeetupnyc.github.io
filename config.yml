@@ -208,10 +208,10 @@ params:
     - name: "Panel Discussion"
       time: "Friday - 13h00-14h00"
 
-    - name: "TBA" # Name Surname
+    - name: "Promises and Pitfalls of Geometric Deep Learning for Protein Design" # Name Surname
       photo: "/img/samuel.jpg"
-      abstract: ""
-      bio: ""
+      abstract: "Protein design appears to be an ideal application of geometric deep learning, with well-motivated symmetries and inductive biases from physics and structural biology. Indeed, until recently in silico protein design was completely dominated by hand-crafted structural models. Recent successes with sequence models are challenging this paradigm, but many researchers still believe strong geometric inductive biases are essential for generalization in data-scarce regimes. We will review a pragmatic assessment of the strengths and weaknesses of structural and sequence-based methods, and discuss the greatest opportunities and challenges facing structural methods in particular in contemporary protein design problems."
+      bio: "Samuel Stanton is a Machine Learning Scientist at Genentech, working on ML-driven drug discovery with the Prescient Design team. Prior to joining Genentech, Samuel received his PhD from the NYU Center for Data Science as an NDSEG fellow under the supervision of Dr. Andrew Gordon Wilson. Samuel’s recent work includes core contributions to Genentech’s “lab-in-the-loop” active learning system for molecule lead optimization, as well as basic research on uncertainty quantification and decision-making with machine learning."
       company: "Genetech" # Cat Foundation
       link:
         href: ""
