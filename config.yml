@@ -184,11 +184,26 @@ params:
         title: "Matthew McPartlon" #Speaker Name
         time: "Friday - 09h00-09h40"
 
-    - name: "Keynote Talk"
-      time: "Friday 09h40-10h40"
-
     - name: "Coffee Break"
-      time: "Friday 10h40-11h00"
+      time: "Friday 9h40-10h00"
+
+    - name: "Keynote Talk" # Name Surname
+      photo: "/img/vahab.jpg"
+      abstract: "TBA"
+      bio: "Vahab Mirrokni is a distinguished scientist (and research director), heading the algorithms research groups at Google Research in New York. His groups at Google Research New York include market algorithms, graph mining, and large-scale optimization groups. Prior to Google, He spent a couple of years in the Theory Group at Microsoft Research, the Theory of Computation Group at MIT CSAIL, and the strategic planning and optimization group at Amazon.com."
+      company: "Google Research" # Cat Foundation
+      link:
+        href: ""
+      #  text: "WebPage"
+      presentation:
+        title: "Vahab Mirrokni " #Speaker Name
+        time: "Friday - 10h00-11h00"
+
+    # - name: "Keynote Talk"
+    #   time: "Friday 09h40-10h40"
+
+    # - name: "Coffee Break"
+    #   time: "Friday 10h40-11h00"
 
     - name: "Capturing graph directionality using  transformers" # Name Surname
       photo: ""
@@ -233,10 +248,10 @@ graph transformers to quantum computers."
     - name: "Coffee Break"
       time: "Friday 14h40-15h00"
       
-    - name: "TBA" # Name Surname
+    - name: "A gentle introduction to causal discovery and local causal discovery" # Name Surname
       photo: "/img/kyra.png"
-      abstract: ""
-      bio: ""
+      abstract: "Causal discovery is crucial for understanding the data-generating mechanism and the causal relationships between variables. Additionally, it has an important application in causal inference in the context of observational studies: it can enable the identification of valid adjustment sets (VAS) for unbiased effect estimation. In this talk, I will introduce graphical models as well as some classical constraint-based causal discovery algorithms. We will see how these methods are notoriously expensive in the nonparametric setting, with exponential time and sample complexity in the worst case. Finally, I will introduce our recent work Local Discovery by Partitioning, a local causal discovery method that is tailored towards VAS identification."
+      bio: "Kyra Gan is an Assistant Professor of Operations Research and Information Engineering at Cornell Tech. Prior to joining Cornell, She was a postdoctoral fellow in the Department of Harvard Statistics, working with Susan Murphy. She obtained her Ph.D. degree in Operations Research from the Tepper School of Business, Carnegie Mellon University in May 2022. Prior to CMU, She received my BA degrees in Mathematics (with the Ann Kirsten Pokora Prize) and Economics from Smith College in May 2017. Her research interests include adaptive/online algorithm design in personalized treatment (including micro-randomized trials and N-of-1 trials) under constrained settings, robust and efficient inference and causal discovery methods."
       company: "Cornell Tech" # Cat Foundation
       link:
         href: ""
