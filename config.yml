@@ -136,13 +136,7 @@ demonstrated that these embeddings preserve both local and global geometric info
 presenting reduced distortion compared to rival models, even when brain networks are mapped
 into low-dimensional spaces. In addition, our findings showed that the hyperbolic embeddings
 encompass unique SCD-related information that improves the discriminatory power above and
-beyond that of connectivity features alone. Notably, we introduced a unique metric—the radius
-of the node embeddings—which effectively proxies the hierarchical organization of the brain.
-Using this metric, we identified subtle hierarchy organizational differences between the two
-participant groups, suggesting reduced hierarchy in the dorsal attention, frontoparietal, and
-ventral attention subnetworks among the SCD group. Last, we assessed the correlation
-between these hierarchical variations and cognitive assessment scores, revealing associations
-with diminished performance across multiple cognitive evaluations in the SCD group. Overall,
+beyond that of connectivity features alone. Overall,
 this study presents the first evaluation of hyperbolic embeddings of MEG brain networks,
 offering novel insights into brain organization, cognitive decline, and potential diagnostic
 avenues of Alzheimer’s disease."
