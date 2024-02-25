@@ -109,13 +109,12 @@ params:
     - name: "Lunch Break and Social"
       time: "Thursday 12h10-13h30"
 
-    - name: "TBA" # Name Surname
+    - name: "Flow Matching on General Geometries" # Name Surname
       photo: "/img/ricky.jpg"
       url: "www.example.org"
-      abstract: "" 
-      bio: "Ricky Tian Qi Chen is a research scientist  at Meta AI(FAIR) in NYC, where his research is on building simplified abstractions of the world through the lens of dynamical systems and flows.
-      He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
-      company: "Meta AI(FAIR) in NYC" 
+      abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries." 
+      bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
+      company: "FAIR, Meta" 
       link:
         href: "https://rtqichen.github.io//"
         #text: "@linus"
@@ -244,8 +243,20 @@ graph transformers to quantum computers."
     - name: "Lunch Break and Social"
       time: "Friday - 11h40-13h00"
 
-    - name: "Panel Discussion"
-      time: "Friday - 13h00-14h00"
+    - name: "Panel Discussion" # Name Surname
+      photo: ""
+      abstract: ""
+      bio: ""
+      company: "" # Cat Foundation
+      link:
+        href: ""
+      #  text: "WebPage"
+      presentation:
+        title: "Luca Naef(VantAI), Samuel Stanton(Genetech), Anton Tsitsulin(Google Research), Vassilis Kalantzis(IBM Reserach), Soledad Villar(JHU) " #Speaker Name
+        time: "Friday - 13h00-14h00"
+
+    # - name: ""
+    #   time: ""
 
     - name: "Promises and Pitfalls of Geometric Deep Learning for Protein Design" # Name Surname
       photo: "/img/samuel.jpg"
