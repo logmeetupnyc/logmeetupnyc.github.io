@@ -243,16 +243,16 @@ graph transformers to quantum computers."
     - name: "Lunch Break and Social"
       time: "Friday - 11h40-13h00"
 
-    - name: "Panel Discussion" # Name Surname
+    - name: "Luca Naef(VantAI), Samuel Stanton(Genetech), Anton Tsitsulin(Google Research), Vassilis Kalantzis(IBM Reserach), Soledad Villar(JHU) " # Name Surname
       photo: ""
-      abstract: ""
+      abstract: "Panel Discussion"
       bio: ""
       company: "" # Cat Foundation
       link:
         href: ""
       #  text: "WebPage"
       presentation:
-        title: "Luca Naef(VantAI), Samuel Stanton(Genetech), Anton Tsitsulin(Google Research), Vassilis Kalantzis(IBM Reserach), Soledad Villar(JHU) " #Speaker Name
+        title: "Panel Discussion" #Speaker Name
         time: "Friday - 13h00-14h00"
 
     # - name: ""
