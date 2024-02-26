@@ -245,8 +245,8 @@ graph transformers to quantum computers."
 
     - name: "Luca Naef(VantAI), Samuel Stanton(Genetech), Anton Tsitsulin(Google Research), Vassilis Kalantzis(IBM Reserach), Soledad Villar(JHU) " # Name Surname
       photo: ""
-      abstract: "Panel Discussion"
-      bio: ""
+      # abstract: "Panel Discussion"
+      # bio: ""
       company: "" # Cat Foundation
       link:
         href: ""
