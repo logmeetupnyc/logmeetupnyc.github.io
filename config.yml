@@ -26,7 +26,7 @@ params:
     - cfp
     - schedule
     - speakers
-    # - selected_talks # comment first upload
+    - selected_talks # comment first upload
     - organizers 
     - sponsors
     #- partners
