@@ -179,8 +179,56 @@ avenues of Alzheimer’s disease."
         time: "Thursday 15h50-16h30"
 
     
-    - name: "Poster Session"
-      time: "Thursday 16h30-17h30"
+    - name: "End-to-end learning geometries for graphs, dynamical systems, and regression" # Name Surname
+      photo: "/img/brandon.png"
+      abstract: "Every machine learning setting has an underlying geometry where
+the data is represented and the predictions are performed in.
+While defaulting the geometry to a Euclidean or known manifold is
+capable of building powerful models, /learning/ a non-trivial geometry
+from data is useful for improving the overall performance and estimating
+unobserved structures.
+This talk focuses on learning geometries for:
+1) *graph embeddings*, where the geometry of the embedding,
+(e.g., Euclidean, spherical, or hyperbolic) heavily influences the
+accuracy and distortion of the embedding;
+2) *dynamical systems*, where the geometry of the state space can uncover
+unobserved properties of the underlying systems, e.g.,
+geographic information such as obstacles or terrains; and
+3) *regression*, where the geometry of the prediction space
+influences where the model should be accurate or inaccurate
+for some downstream task.
+We will focus on /latent/ geometries in these settings that are
+not directly observable from the data, i.e., the geometry cannot
+be estimated as a submanifold of the Euclidean space the data
+is observed in.
+Instead, the geometry can be shaped via a downstream
+signal that propagates through differentiable operations such as
+the geodesic distance, and log/exp maps on Riemannian manifolds.
+The talk covers the foundational tools here on making operations
+differentiable (in general via the envelope and implicit function theorems,
+and simpler when closed-form operations are available),
+and demonstrates where the end-to-end learned geometry is effective."
+      bio: "Brandon Amos is a Research Scientist in Meta AI’s Fundamental AI
+Research group in NYC. He holds a PhD in Computer Science from
+Carnegie Mellon University and was supported by the USA National
+Science Foundation Graduate Research Fellowship (NSF GRFP). Prior to
+joining Meta, he has worked at Adobe Research, Google DeepMind,
+and Intel Labs. His research interests are in machine learning and
+optimization with a recent focus on reinforcement learning, control,
+optimal transport, and geometry."
+      company: "Meta AI (FAIR)" 
+      link:
+        href: "https://bamos.github.io/"
+      #  text: "WebPage"
+      presentation:
+        title: "Brandon Amos" #Speaker Name
+        time: "Thursday 16h30-17h00"
+
+    - name: "Spotlight Talk"
+      time: "Thursday 17h00-17h15"
+
+    - name: "Spotlight Talk"
+      time: "Thursday 17h15-17h30"
 
 
     ##### Friday
@@ -203,7 +251,7 @@ avenues of Alzheimer’s disease."
     - name: "Keynote Talk" # Name Surname
       photo: "/img/vahab.jpg"
       abstract: "TBA"
-      bio: "Vahab Mirrokni is a distinguished scientist (and research director), heading the algorithms research groups at Google Research in New York. His groups at Google Research New York include market algorithms, graph mining, and large-scale optimization groups. Prior to Google, He spent a couple of years in the Theory Group at Microsoft Research, the Theory of Computation Group at MIT CSAIL, and the strategic planning and optimization group at Amazon.com."
+      bio: "Vahab Mirrokni is a Google Fellow and VP at Google Research, leading algorithm and optimization research groups at Google. These research teams include: market algorithms, large-scale graph mining, and large-scale optimization. Previously he was a distinguished scientist and senior research director at Google. He received his PhD from MIT in 2005 and his B.Sc. from Sharif University of Technology in 2001. He joined Google Research in 2008, after research positions at Microsoft Research, MIT and Amazon.com. He is the co-winner of best paper awards at KDD, ACM EC, and SODA. His research areas include algorithms, distributed and stochastic optimization, and computational economics. Recently he has been working on various algorithmic problems in machine learning, online optimization and mechanism design, and large-scale graph-based learning ."
       company: "Google Research" # Cat Foundation
       link:
         href: ""
@@ -303,6 +351,18 @@ graph transformers to quantum computers."
     - name: "Closing Remarks"
       time: "Friday 17h00-17h15"
 
+
+  selected_talks:
+
+  #### MONDAY 1
+
+    - slot: "Thursday 17h00-17h15"
+      title: "Rethinking Symmetries in Graph Neural Networks"
+      speaker: "Teresa Huang"
+
+    - slot: "Thursday 17h15-17h30"
+      title: "Network Formation and Dynamics Among Multi-LLMs"
+      speaker: "Marios Papachristou"
 
 
   # List of Contacts
