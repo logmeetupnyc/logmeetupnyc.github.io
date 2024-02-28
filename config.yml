@@ -267,7 +267,7 @@ optimal transport, and geometry."
     #   time: "Friday 10h40-11h00"
 
     - name: "Capturing graph directionality using  transformers" # Name Surname
-      photo: ""
+      photo: "/img/me.jpg"
       abstract: "Most existing graph transformers typically capture distances between graph nodes and do not
 take edge direction into account. This is a limiting assumption since many graph applications
 need to exploit sophisticated relationships in graph data, such as time, causality, or generic
