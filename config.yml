@@ -39,8 +39,8 @@ params:
     cfp: "Call for talks"
     location: "The Venue"
     schedule: "Schedule"
-    speakers: "Keynote Speakers"
-    # selected_talks: "Selected Talks"
+    speakers: "Speakers"
+    selected_talks: "Spotlight Talks"
     sponsors: "Sponsors"
     partners: "Partners"
     organizers: "Organizers"
@@ -353,8 +353,6 @@ graph transformers to quantum computers."
 
 
   selected_talks:
-
-  #### MONDAY 1
 
     - slot: "Thursday 17h00-17h15"
       title: "Rethinking Symmetries in Graph Neural Networks"
