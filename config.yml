@@ -63,10 +63,10 @@ params:
     - name: "Opening NYC LoG"
       time: "Thursday 09h15-09h30"
 
-    - name: "TBA" # Name Surname
+    - name: "Advances in Unsupervised Graph Learning" # Name Surname
       photo: "/img/Anton.jpg"
-      abstract: ""
-      bio: "Anton Tsitsulin is a research scientist at google research NYC. He is interested in scalable, principled methods for analyzing graph data in an unsupervised manner." 
+      abstract: "We rarely have clear supervision signals in real-world data. Unsupervised learning is even more important to get right for graph-structured data since labeling graphs is a hard task even for competent human labellers. This talk will cover novel ways to do unsupervised graph learning, novel ways of improving structure of graphs, and our approach to benchmarking graph neural networks."
+      bio: "Anton Tsitsulin is a research scientist at Google Research in NYC. His research interests are scalable, principled methods for analyzing graph data in an unsupervised manner. He received his Ph.D. from the university of Bonn in 2021." 
       company: "Google Research" 
       link:
         href: "https://tsitsul.in/"
@@ -91,12 +91,12 @@ params:
     - name: "Coffee Break"
       time: "Thursday 10h50-11h10"
 
-    - name: "Spotlight Talk"
+    - name: "Giving a Voice to Your Graph:  Data Representations in the LLM Age"
       photo: "/img/bryan.jpg"
-      url: "www.example.org"
-      abstract: "" 
-      bio: "Bryan Perozzi is a senior staff research scientist  at Google NYC, where he develop techniques for learning expressive 
-      representations of social relationships and natural language with neural networks. These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets."
+      url: ""
+      abstract: "Graphs are powerful tools for representing complex real-world relationships, essential for tasks like analyzing social networks or identifying financial trends.  While large language models (LLMs) have revolutionized natural text reasoning, their application to graphs remains an understudied frontier. To bridge this gap, we need to transform structured graph data into representations LLMs can process. This talk delves into our work on finding the correct graph inductive bias for Graph ML and developing strategies to convert graphs into language-like formats for LLMs. I'll explore our work on “Talking Like a Graph”, and our parameter-efficient method, GraphToken, which learns an encoding function to extend prompts with explicit structured information." 
+      bio: "Bryan Perozzi is a Research Scientist in Google Research’s Algorithms and Optimization group, where he routinely analyzes some of the world’s largest (and perhaps most interesting) graphs.  Bryan’s research focuses on developing techniques for learning expressive representations of relational data with neural networks.  These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets.  
+Bryan is an author of 40+ peer-reviewed papers at leading conferences in machine learning and data mining (such as NeurIPS, ICML, ICLR, KDD, and WWW).  His doctoral work on learning network representations (DeepWalk) was awarded the prestigious SIGKDD Dissertation Award.  Bryan received his Ph.D. in Computer Science from Stony Brook University in 2016, and his M.S. from the Johns Hopkins University in 2011."
       company: "Google Research" 
       link:
         href: "https://research.google/people/bryan-perozzi/"
@@ -106,7 +106,7 @@ params:
         time: "Thursday 11h10-12h10"
 
 
-    - name: "Lunch Break and Social"
+    - name: "Lunch Break and Social(lunch not provided)"
       time: "Thursday 12h10-13h30"
 
     - name: "Flow Matching on General Geometries" # Name Surname
@@ -288,7 +288,7 @@ graph transformers to quantum computers."
         title: "Vassilis Kalantzis" #Speaker Name
         time: "Friday - 11h00-11h40"
 
-    - name: "Lunch Break and Social"
+    - name: "Lunch Break and Social(lunch not provided)"
       time: "Friday - 11h40-13h00"
 
     - name: "Luca Naef(VantAI), Samuel Stanton(Genetech), Anton Tsitsulin(Google Research), Vassilis Kalantzis(IBM Reserach), Soledad Villar(JHU) " # Name Surname
