@@ -232,18 +232,18 @@ optimal transport, and geometry."
 
 
     ##### Friday
-
-    - name: "LATENTDOCK: Protein-Protein Docking with Latent Diffusion" # Name Surname
-      photo: "/img/matt.jpg"
-      abstract: "Interactions between proteins form the basis for many biological processes, and understanding their relationships is an area of active research. Computational approaches offer a way to facilitate this understanding without the burden of expensive and time-consuming experiments. Here, we introduce LATENTDOCK, a generative model for protein-protein docking. Our method leverages a diffusion model operating within a geometrically-structured latent space, derived from an encoder producing roto-translational invariant representations of protein complexes. Critically, it is able to perform flexible docking, capturing both backbone and side-chain conformational changes. Furthermore, our model can condition on binding sites, leading to significant performance gains. Empirical evaluations show the efficacy of our approach over relevant baselines, even outperforming models that do not account for flexibility."
-      bio: "Matthew McPartlon is a senior research scientist at VantAI where he works on deep learning models for predicting protein-protein and protein-small molecule interactions. Prior to joining VantAI he completed his PhD in computer science at The University of Chicago under Jinbo Xu. His current research is focused on learning invariant representations of 3D geometry and applying this to structure related problems in biology."
-      company: "VantAI" # Cat Foundation
+    - name: "The Next Generation of AI and Data Science in Computational Health: A Full-Stack Holistic Perspective" # Name Surname
+      photo: "/img/fei.jpeg"
+      abstract: "With the revolution of machine learning technologies in recent years, AI and data science are holding greater promise in understanding diseases and improving quality of care. Computational health is such a research area aiming at developing computational methodologies for deriving insights from various biomedical data. Currently the research in computational health has been mostly siloed, with different communities focusing on analyzing different types of data. However, human health has its own ecosystem with information from all aspects including genome, phenome and exposome. We need to integrate the insights from all of them to have more holistic understandings of diseases. In this talk, I will present the research from my lab health in recent years on building machine learning models for analyzing different types of data involved in different levels of human life science, and the need for transitioning from conventional focused-community based strategy to a holistic full-stack regime for the next-generation health AI/data science research."
+      bio: "Fei Wang is a Professor in Division of Health Informatics, Department of Population Health Sciences, Weill Cornell Medicine (WCM), Cornell University. He is also the founding director of the WCM institute of AI for Digital Health (AIDH). His major research interest is AI and digital health. He has published more than 350 papers on the top venues of related areas such as ICML, KDD, NIPS, CVPR, AAAI, IJCAI, Nature Medicine, JAMA Internal Medicine, Annals of Internal Medicine, Lancet Digital Health, etc. His papers have received over 29,000 citations so far with an H-index 81. His (or his students’) papers have won 8 best paper (or nomination) awards at top international conferences on data mining and medical informatics. His team won the championship of the AACC PTHrP result prediction challenge in 2022, NIPS/Kaggle Challenge on Classification of Clinically Actionable Genetic Mutations in 2017 and Parkinson's Progression Markers' Initiative data challenge organized by Michael J. Fox Foundation in 2016. Dr. Wang is the recipient of the NSF CAREER Award in 2018, as well as the inaugural research leadership award in IEEE International Conference on Health Informatics (ICHI) 2019. Dr. Wang also received prestigious industry awards such as the Sanofi iDEA Award (2021), Google Faculty Research Award (2020) and Amazon AWS Machine Learning for Research Award (2017, 2019 and 2022). Dr. Wang’s Research has been supported by a diverse set of agencies including NSF, NIH, ONR, PCORI, MJFF, AHA, etc. Dr. Wang is the past chair of the Knowledge Discovery and Data Mining working group in American Medical Informatics Association (AMIA). Dr. Wang is a fellow of AMIA, a fellow of IAHSI, a fellow of ACMI and a distinguished member of ACM. "
+      company: "Weill Cornell Medicine" # Cat Foundation
       link:
         href: ""
       #  text: "WebPage"
       presentation:
-        title: "Matthew McPartlon" #Speaker Name
+        title: "Fei Wang" #Speaker Name
         time: "Friday - 09h00-09h40"
+
 
     - name: "Coffee Break"
       time: "Friday 9h40-10h00"
@@ -266,26 +266,16 @@ optimal transport, and geometry."
     # - name: "Coffee Break"
     #   time: "Friday 10h40-11h00"
 
-    - name: "Capturing graph directionality using  transformers" # Name Surname
-      photo: "/img/me.jpg"
-      abstract: "Most existing graph transformers typically capture distances between graph nodes and do not
-take edge direction into account. This is a limiting assumption since many graph applications
-need to exploit sophisticated relationships in graph data, such as time, causality, or generic
-dependency constraints. We introduce a novel graph transformer architecture that explicitly
-takes into account the directionality between connected graph nodes. To achieve this, we make
-use of dual encodings to represent both potential roles, i.e., source or target, of each pair
-of vertices linked by a directed edge. These encodings are learned by leveraging the latent
-adjacency information extracted from a directional attention module, localized with $k$-hop
-neighborhood information. Extensive experiments on synthetic and real graph datasets show that
-our approach can lead to accuracy gains. We also discuss an exploration in mapping directed
-graph transformers to quantum computers."
-      bio: "Vasileios Kalantzis is a Senior Research Scientist at IBM T.J. Watson Research Center, NY. Prior to his current role he was a Herman H. Goldstine Memorial Postdoctoral fellow (2018-2019) and Staff Research Scientist (2019-2023). Vasileios obtained his PhD (2018) and MSc (2016) in Computer Science and Engineering from the University of Minnesota, Twin Cities, and his MSc (2014) and MEng (2011) in Computer Engineering from the University of Patras, Greece. His research interests lie in topics in numerical linear algebra, high-performance computing, graph analytics, and randomized algorithms."
-      company: "IBM Research" # Cat Foundation
+    - name: "LATENTDOCK: Protein-Protein Docking with Latent Diffusion" # Name Surname
+      photo: "/img/matt.jpg"
+      abstract: "Interactions between proteins form the basis for many biological processes, and understanding their relationships is an area of active research. Computational approaches offer a way to facilitate this understanding without the burden of expensive and time-consuming experiments. Here, we introduce LATENTDOCK, a generative model for protein-protein docking. Our method leverages a diffusion model operating within a geometrically-structured latent space, derived from an encoder producing roto-translational invariant representations of protein complexes. Critically, it is able to perform flexible docking, capturing both backbone and side-chain conformational changes. Furthermore, our model can condition on binding sites, leading to significant performance gains. Empirical evaluations show the efficacy of our approach over relevant baselines, even outperforming models that do not account for flexibility."
+      bio: "Matthew McPartlon is a senior research scientist at VantAI where he works on deep learning models for predicting protein-protein and protein-small molecule interactions. Prior to joining VantAI he completed his PhD in computer science at The University of Chicago under Jinbo Xu. His current research is focused on learning invariant representations of 3D geometry and applying this to structure related problems in biology."
+      company: "VantAI" # Cat Foundation
       link:
         href: ""
       #  text: "WebPage"
       presentation:
-        title: "Vassilis Kalantzis" #Speaker Name
+        title: "Matthew McPartlon" #Speaker Name
         time: "Friday - 11h00-11h40"
 
     - name: "Lunch Break and Social(lunch not provided)"
@@ -332,18 +322,40 @@ graph transformers to quantum computers."
       presentation:
         title: "Kyra Gan" #Speaker Name
         time: "Friday - 15h00-15h40"
-    
-    - name: "TBA" # Name Surname
-      photo: "/img/fei.jpeg"
-      abstract: ""
-      bio: ""
-      company: "Weill Cornell Medicine" # Cat Foundation
+
+    - name: "Capturing graph directionality using  transformers" # Name Surname
+      photo: "/img/me.jpg"
+      abstract: "Most existing graph transformers typically capture distances between graph nodes and do not
+take edge direction into account. This is a limiting assumption since many graph applications
+need to exploit sophisticated relationships in graph data, such as time, causality, or generic
+dependency constraints. We introduce a novel graph transformer architecture that explicitly
+takes into account the directionality between connected graph nodes. To achieve this, we make
+use of dual encodings to represent both potential roles, i.e., source or target, of each pair
+of vertices linked by a directed edge. These encodings are learned by leveraging the latent
+adjacency information extracted from a directional attention module, localized with $k$-hop
+neighborhood information. Extensive experiments on synthetic and real graph datasets show that
+our approach can lead to accuracy gains. We also discuss an exploration in mapping directed
+graph transformers to quantum computers."
+      bio: "Vasileios Kalantzis is a Senior Research Scientist at IBM T.J. Watson Research Center, NY. Prior to his current role he was a Herman H. Goldstine Memorial Postdoctoral fellow (2018-2019) and Staff Research Scientist (2019-2023). Vasileios obtained his PhD (2018) and MSc (2016) in Computer Science and Engineering from the University of Minnesota, Twin Cities, and his MSc (2014) and MEng (2011) in Computer Engineering from the University of Patras, Greece. His research interests lie in topics in numerical linear algebra, high-performance computing, graph analytics, and randomized algorithms."
+      company: "IBM Research" # Cat Foundation
       link:
         href: ""
       #  text: "WebPage"
       presentation:
-        title: "Fei Wang" #Speaker Name
+        title: "Vassilis Kalantzis" #Speaker Name
         time: "Friday - 15h40-16h20"
+
+    # - name: "The Next Generation of AI and Data Science in Computational Health: A Full-Stack Holistic Perspective" # Name Surname
+    #   photo: "/img/fei.jpeg"
+    #   abstract: "With the revolution of machine learning technologies in recent years, AI and data science are holding greater promise in understanding diseases and improving quality of care. Computational health is such a research area aiming at developing computational methodologies for deriving insights from various biomedical data. Currently the research in computational health has been mostly siloed, with different communities focusing on analyzing different types of data. However, human health has its own ecosystem with information from all aspects including genome, phenome and exposome. We need to integrate the insights from all of them to have more holistic understandings of diseases. In this talk, I will present the research from my lab health in recent years on building machine learning models for analyzing different types of data involved in different levels of human life science, and the need for transitioning from conventional focused-community based strategy to a holistic full-stack regime for the next-generation health AI/data science research."
+    #   bio: "Fei Wang is a Professor in Division of Health Informatics, Department of Population Health Sciences, Weill Cornell Medicine (WCM), Cornell University. He is also the founding director of the WCM institute of AI for Digital Health (AIDH). His major research interest is AI and digital health. He has published more than 350 papers on the top venues of related areas such as ICML, KDD, NIPS, CVPR, AAAI, IJCAI, Nature Medicine, JAMA Internal Medicine, Annals of Internal Medicine, Lancet Digital Health, etc. His papers have received over 29,000 citations so far with an H-index 81. His (or his students’) papers have won 8 best paper (or nomination) awards at top international conferences on data mining and medical informatics. His team won the championship of the AACC PTHrP result prediction challenge in 2022, NIPS/Kaggle Challenge on Classification of Clinically Actionable Genetic Mutations in 2017 and Parkinson's Progression Markers' Initiative data challenge organized by Michael J. Fox Foundation in 2016. Dr. Wang is the recipient of the NSF CAREER Award in 2018, as well as the inaugural research leadership award in IEEE International Conference on Health Informatics (ICHI) 2019. Dr. Wang also received prestigious industry awards such as the Sanofi iDEA Award (2021), Google Faculty Research Award (2020) and Amazon AWS Machine Learning for Research Award (2017, 2019 and 2022). Dr. Wang’s Research has been supported by a diverse set of agencies including NSF, NIH, ONR, PCORI, MJFF, AHA, etc. Dr. Wang is the past chair of the Knowledge Discovery and Data Mining working group in American Medical Informatics Association (AMIA). Dr. Wang is a fellow of AMIA, a fellow of IAHSI, a fellow of ACMI and a distinguished member of ACM. "
+    #   company: "Weill Cornell Medicine" # Cat Foundation
+    #   link:
+    #     href: ""
+    #   #  text: "WebPage"
+    #   presentation:
+    #     title: "Fei Wang" #Speaker Name
+    #     time: "Friday - 15h40-16h20"
 
     - name: "Poster Session"
       time: "Friday 16h20-17h00"
