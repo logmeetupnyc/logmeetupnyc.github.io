@@ -238,7 +238,7 @@ optimal transport, and geometry."
       bio: "Fei Wang is a Professor in Division of Health Informatics, Department of Population Health Sciences, Weill Cornell Medicine (WCM), Cornell University. He is also the founding director of the WCM institute of AI for Digital Health (AIDH). His major research interest is AI and digital health. He has published more than 350 papers on the top venues of related areas such as ICML, KDD, NIPS, CVPR, AAAI, IJCAI, Nature Medicine, JAMA Internal Medicine, Annals of Internal Medicine, Lancet Digital Health, etc. His papers have received over 29,000 citations so far with an H-index 81. His (or his students’) papers have won 8 best paper (or nomination) awards at top international conferences on data mining and medical informatics. His team won the championship of the AACC PTHrP result prediction challenge in 2022, NIPS/Kaggle Challenge on Classification of Clinically Actionable Genetic Mutations in 2017 and Parkinson's Progression Markers' Initiative data challenge organized by Michael J. Fox Foundation in 2016. Dr. Wang is the recipient of the NSF CAREER Award in 2018, as well as the inaugural research leadership award in IEEE International Conference on Health Informatics (ICHI) 2019. Dr. Wang also received prestigious industry awards such as the Sanofi iDEA Award (2021), Google Faculty Research Award (2020) and Amazon AWS Machine Learning for Research Award (2017, 2019 and 2022). Dr. Wang’s Research has been supported by a diverse set of agencies including NSF, NIH, ONR, PCORI, MJFF, AHA, etc. Dr. Wang is the past chair of the Knowledge Discovery and Data Mining working group in American Medical Informatics Association (AMIA). Dr. Wang is a fellow of AMIA, a fellow of IAHSI, a fellow of ACMI and a distinguished member of ACM. "
       company: "Weill Cornell Medicine" # Cat Foundation
       link:
-        href: ""
+        href: "https://wcm-wanglab.github.io/index.html"
       #  text: "WebPage"
       presentation:
         title: "Fei Wang" #Speaker Name
@@ -254,7 +254,7 @@ optimal transport, and geometry."
       bio: "Vahab Mirrokni is a Google Fellow and VP at Google Research, leading algorithm and optimization research groups at Google. These research teams include: market algorithms, large-scale graph mining, and large-scale optimization. Previously he was a distinguished scientist and senior research director at Google. He received his PhD from MIT in 2005 and his B.Sc. from Sharif University of Technology in 2001. He joined Google Research in 2008, after research positions at Microsoft Research, MIT and Amazon.com. He is the co-winner of best paper awards at KDD, ACM EC, and SODA. His research areas include algorithms, distributed and stochastic optimization, and computational economics. Recently he has been working on various algorithmic problems in machine learning, online optimization and mechanism design, and large-scale graph-based learning ."
       company: "Google Research" # Cat Foundation
       link:
-        href: ""
+        href: "https://people.csail.mit.edu/mirrokni/Welcome.html"
       #  text: "WebPage"
       presentation:
         title: "Vahab Mirrokni " #Speaker Name
@@ -302,7 +302,7 @@ optimal transport, and geometry."
       bio: "Samuel Stanton is a Machine Learning Scientist at Genentech, working on ML-driven drug discovery with the Prescient Design team. Prior to joining Genentech, Samuel received his PhD from the NYU Center for Data Science as an NDSEG fellow under the supervision of Dr. Andrew Gordon Wilson. Samuel’s recent work includes core contributions to Genentech’s “lab-in-the-loop” active learning system for molecule lead optimization, as well as basic research on uncertainty quantification and decision-making with machine learning."
       company: "Genetech" # Cat Foundation
       link:
-        href: ""
+        href: "https://samuelstanton.github.io/"
       #  text: "WebPage"
       presentation:
         title: "Samuel Stanton" #Speaker Name
@@ -317,7 +317,7 @@ optimal transport, and geometry."
       bio: "Kyra Gan is an Assistant Professor of Operations Research and Information Engineering at Cornell Tech. Prior to joining Cornell, She was a postdoctoral fellow in the Department of Harvard Statistics, working with Susan Murphy. She obtained her Ph.D. degree in Operations Research from the Tepper School of Business, Carnegie Mellon University in May 2022. Prior to CMU, She received my BA degrees in Mathematics (with the Ann Kirsten Pokora Prize) and Economics from Smith College in May 2017. Her research interests include adaptive/online algorithm design in personalized treatment (including micro-randomized trials and N-of-1 trials) under constrained settings, robust and efficient inference and causal discovery methods."
       company: "Cornell Tech" # Cat Foundation
       link:
-        href: ""
+        href: "https://kyra-gan.github.io/"
       #  text: "WebPage"
       presentation:
         title: "Kyra Gan" #Speaker Name
@@ -339,7 +339,7 @@ graph transformers to quantum computers."
       bio: "Vasileios Kalantzis is a Senior Research Scientist at IBM T.J. Watson Research Center, NY. Prior to his current role he was a Herman H. Goldstine Memorial Postdoctoral fellow (2018-2019) and Staff Research Scientist (2019-2023). Vasileios obtained his PhD (2018) and MSc (2016) in Computer Science and Engineering from the University of Minnesota, Twin Cities, and his MSc (2014) and MEng (2011) in Computer Engineering from the University of Patras, Greece. His research interests lie in topics in numerical linear algebra, high-performance computing, graph analytics, and randomized algorithms."
       company: "IBM Research" # Cat Foundation
       link:
-        href: ""
+        href: "https://vkalantzi.github.io/"
       #  text: "WebPage"
       presentation:
         title: "Vassilis Kalantzis" #Speaker Name
