@@ -1,7 +1,7 @@
 url: "https://logmeetupnyc.github.io"
 baseurl: "/"
 title: "Second LoG New York Meetup"
-canonifyurls: true
+# canonifyurls: true
 theme: "hugo-conference"
 
 GoogleAnalytics: ""
