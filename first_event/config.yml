@@ -1,0 +1,458 @@
+baseurl: "https://logmeetupnyc.github.io/first"
+title: "LoG New York"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "LoG New York"
+  Description: "LoG Meet Up New York"
+  Date: "Feb 29th - March 1st"
+  #Price: "Only XX€" # If your event is free, just comment this line
+  Venue: "New York"
+  Address: "101 Hudson St"
+  City:  "Jersey City"
+  State: "New Jersey"
+  Images: ["/img/badge.jpg"]
+  GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - registration
+    - cfp
+    - schedule
+    - speakers
+    - selected_talks # comment first upload
+    - organizers 
+    - sponsors
+    #- partners
+    - location
+
+  # Titles 
+  Titles:
+    about: "About"
+    registration: "Registration"
+    cfp: "Call for talks"
+    location: "The Venue"
+    schedule: "Schedule"
+    speakers: "Speakers"
+    selected_talks: "Spotlight Talks"
+    sponsors: "Sponsors"
+    partners: "Partners"
+    organizers: "Organizers"
+    past_events: "Previous Events"
+
+  # List of Sponsors
+  Sponsors:
+
+    - name: "NJIT"
+      logo: "/img/njit.png"
+      url: "https://cs.njit.edu"
+
+
+
+  # The entire schedule
+  Schedule:
+
+    - name: "Registration and Reception"
+      time: "Thursday 08h30-09h15"
+
+    - name: "Opening NYC LoG"
+      time: "Thursday 09h15-09h30"
+
+    - name: "Advances in Unsupervised Graph Learning" # Name Surname
+      photo: "/img/Anton.jpg"
+      abstract: "We rarely have clear supervision signals in real-world data. Unsupervised learning is even more important to get right for graph-structured data since labeling graphs is a hard task even for competent human labellers. This talk will cover novel ways to do unsupervised graph learning, novel ways of improving structure of graphs, and our approach to benchmarking graph neural networks."
+      bio: "Anton Tsitsulin is a research scientist at Google Research in NYC. His research interests are scalable, principled methods for analyzing graph data in an unsupervised manner. He received his Ph.D. from the university of Bonn in 2021." 
+      company: "Google Research" 
+      link:
+        href: "https://tsitsul.in/"
+      #  text: "WebPage"
+      presentation:
+        title: "Anton Tsitsulin" #Speaker Name
+        time: "Thursday 09h30-10h10"
+
+    - name: "Measure Transport Perspectives on Sampling, Generative Modeling, and Beyond" # Name Surname
+      photo: "/img/micheal.jpg"
+      abstract: "Both the social and natural world are replete with complex structure that often has a probabilistic interpretation. In the former, we may seek to model, for example, the distribution of natural images or language, for which there are copious amounts of real world data. In the latter, we are given the probabilistic rule describing a physical process, but no procedure for generating samples under it necessary to perform simulation. In this talk, I will discuss a generative modeling paradigm based on maps between probability distributions that is applicable to both of these circumstances. I will describe a means for learning these maps in the context of problems in statistical physics, how to impose symmetries on them to facilitate learning, and how to use the resultant generative models in a statistically unbiased fashion. I will then describe a paradigm that unifies flow-based and diffusion based generative models by recasting generative modeling as a problem of regression. I will demonstrate the efficacy of doing this in computer vision problems and end with some future challenges and applications."
+      bio: "Michael Albergo is a postdoc at the Courant Institute of Mathematical Sciences. His research interests lie at the intersection of generative modeling and statistical physics, with a focus on designing machine learning methods to advance scientific computing. He received his PhD under the supervision of Kyle Cranmer, Yann LeCun, and Eric Vanden-Eijnden at NYU, his MPhil at the University of Cambridge, and his AB at Harvard University. Starting in August 2024 he will be a Junior Fellow at the Harvard Society of Fellows and an IAIFI Fellow at MIT."
+        
+      company: "Courant Institute of Mathematical Sciences" 
+      link:
+        href: "http://malbergo.me/"
+      #  text: "WebPage"
+      presentation:
+        title: "Michael S Albergo" #Speaker Name
+        time: "Thursday 10h10-10h50"
+
+    - name: "Coffee Break"
+      time: "Thursday 10h50-11h10"
+
+    - name: "Giving a Voice to Your Graph:  Data Representations in the LLM Age"
+      photo: "/img/bryan.jpg"
+      url: ""
+      abstract: "Graphs are powerful tools for representing complex real-world relationships, essential for tasks like analyzing social networks or identifying financial trends.  While large language models (LLMs) have revolutionized natural text reasoning, their application to graphs remains an understudied frontier. To bridge this gap, we need to transform structured graph data into representations LLMs can process. This talk delves into our work on finding the correct graph inductive bias for Graph ML and developing strategies to convert graphs into language-like formats for LLMs. I'll explore our work on “Talking Like a Graph”, and our parameter-efficient method, GraphToken, which learns an encoding function to extend prompts with explicit structured information." 
+      bio: "Bryan Perozzi is a Research Scientist in Google Research’s Algorithms and Optimization group, where he routinely analyzes some of the world’s largest (and perhaps most interesting) graphs.  Bryan’s research focuses on developing techniques for learning expressive representations of relational data with neural networks.  These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets.  
+Bryan is an author of 40+ peer-reviewed papers at leading conferences in machine learning and data mining (such as NeurIPS, ICML, ICLR, KDD, and WWW).  His doctoral work on learning network representations (DeepWalk) was awarded the prestigious SIGKDD Dissertation Award.  Bryan received his Ph.D. in Computer Science from Stony Brook University in 2016, and his M.S. from the Johns Hopkins University in 2011."
+      company: "Google Research" 
+      link:
+        href: "https://research.google/people/bryan-perozzi/"
+        #text: "@linus"
+      presentation:
+        title: "Bryan Perozzi" # Speaker Name
+        time: "Thursday 11h10-12h10"
+
+
+    - name: "Lunch Break and Social(lunch not provided)"
+      time: "Thursday 12h10-13h30"
+
+    - name: "Flow Matching on General Geometries" # Name Surname
+      photo: "/img/ricky.jpg"
+      url: "www.example.org"
+      abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries." 
+      bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
+      company: "FAIR, Meta" 
+      link:
+        href: "https://rtqichen.github.io//"
+        #text: "@linus"
+      presentation:
+        title: "Ricky Tian Qi Chen" # Speaker Name
+        time: "Thursday 13h30-14h10"
+
+    - name: "Hyperbolic Brain Network Representations for Subjective Cognitive Decline
+Prediction and Detecting Healthy Brain Aging Trajectories" # Name Surname
+      photo: "/img/mengjia.png"
+      abstract: "An expansive area of research focuses on discerning patterns of alterations in
+functional brain networks from the early stages of Alzheimer’s disease, even at the subjective
+cognitive decline (SCD) stage. Here, we developed a novel hyperbolic MEG brain network
+embedding framework for transforming complex MEG brain networks into lower-dimensional
+hyperbolic representations. Using this model, we computed hyperbolic embeddings of the MEG
+brain networks of two distinct participant groups: individuals with SCD and healthy controls. We
+demonstrated that these embeddings preserve both local and global geometric information,
+presenting reduced distortion compared to rival models, even when brain networks are mapped
+into low-dimensional spaces. In addition, our findings showed that the hyperbolic embeddings
+encompass unique SCD-related information that improves the discriminatory power above and
+beyond that of connectivity features alone. Overall,
+this study presents the first evaluation of hyperbolic embeddings of MEG brain networks,
+offering novel insights into brain organization, cognitive decline, and potential diagnostic
+avenues of Alzheimer’s disease."
+      bio: "Mengjia Xu is currently an Assistant Professor at Department of Data Science, Ying Wu College of Computing, NJIT. She also holds a Research Affiliate position with the MIT NSF Center for Brains, Minds, and Machines (CBMM) at McGovern Institute for Brain Research. "
+        
+      company: "New Jersey Institute of Technology" 
+      link:
+        href: "https://gracexu182.github.io/"
+      #  text: "WebPage"
+      presentation:
+        title: "Mengjia Xu" #Speaker Name
+        time: "Thursday 14h10-14h50"
+
+    - name: "Coffee Break"
+      time: "Thursday 14h50-15h10"
+
+    - name: "Graph Ricci Flow and Applications in Network Analysis and Learning" # Name Surname
+      photo: "/img/jie.jpg"
+      abstract: "The notion of curvature describes how spaces are bent at each point and Ricci flow deforms the space such that curvature changes in a way analogous to the diffusion of heat. In this talk I will discuss some of our work on discrete Ollivier Ricci curvature defined on graphs. Discrete curvature defined on an edge captures the local connectivity in the neighborhood. In general edges within a densely connected community have positive curvature while edges connecting different communities have negative curvature. By deforming edge weights with respect to curvature one can derive a Ricci flow metric which is robust to edge insertion/deletion. I will present applications of graph Ricci flow in graph analysis and learning, including network alignment, community detection and graph neural networks."
+      bio: "Jie Gao is a Professor of Computer Science department of Rutgers University. From 2005-2019 she was on faculty of Department of Computer Science, Stony Brook University.
+      Her reserach is in the intersection of Algorithm Design, Computational Geometry and Networking applications such as wireless, mobile, and sensor networks, and more recently social networks, trajectory data/privacy, and scheduling problems in robotics and networking."
+        
+      company: "Rutgers University" 
+      link:
+        href: "https://sites.rutgers.edu/jie-gao/"
+      #  text: "WebPage"
+      presentation:
+        title: "Jie Gao" #Speaker Name
+        time: "Thursday 15h10-15h50"
+
+    - name: "Learning the laws and composition of the Universe with cosmic graphs" # Name Surname
+      photo: "/img/paco.png"
+      abstract: "Cosmology is a branch of astrophysics dedicated to the study of the laws and constituents of the Universe. To achieve this, cosmologists look at the spatial distribution of galaxies in the Universe with the goal of finding patterns in that distribution that reveal the fundamental physics behind the dynamics of the cosmos. In this talk, I will show how deep learning is revolutionizing the way cosmologists tackle decades-old problems and how graph neural networks can be used in combination with state-of-the-art hydrodynamic simulations to maximize the amount of information that can be extracted from cosmological observations."
+      bio: "Francisco (Paco) Villaescusa-Navarro is a research scientist at the Flatiron Institute in New York City. He did his PhD at the University of Valencia in Spain. He held postdoctoral positions at the Astronomical Observatory of Trieste, Italy, and the Center for Computational Astrophysics in New York before becoming an associate research scholar at Princeton University, where he holds a visiting research scholar position. Paco is the main architect of the Quijote simulations, the largest suite of cosmological N-body simulations ever run. He is also part of the CAMELS core team that designed and ran the largest set of state-of-the-art hydrodynamic simulations to date. Paco combines the output of numerical simulations with machine learning methods to develop theoretical models to extract the maximum amount of information from cosmological surveys in order to unveil the Universe’s mysteries."
+      company: "Flatiron Institute" 
+      link:
+        href: "https://franciscovillaescusa.github.io/"
+      #  text: "WebPage"
+      presentation:
+        title: "Francisco Villaescusa-Navarro" #Speaker Name
+        time: "Thursday 15h50-16h30"
+
+    
+    - name: "End-to-end learning geometries for graphs, dynamical systems, and regression" # Name Surname
+      photo: "/img/brandon.png"
+      abstract: "Every machine learning setting has an underlying geometry where
+the data is represented and the predictions are performed in.
+While defaulting the geometry to a Euclidean or known manifold is
+capable of building powerful models, /learning/ a non-trivial geometry
+from data is useful for improving the overall performance and estimating
+unobserved structures.
+This talk focuses on learning geometries for:
+1) *graph embeddings*, where the geometry of the embedding,
+(e.g., Euclidean, spherical, or hyperbolic) heavily influences the
+accuracy and distortion of the embedding;
+2) *dynamical systems*, where the geometry of the state space can uncover
+unobserved properties of the underlying systems, e.g.,
+geographic information such as obstacles or terrains; and
+3) *regression*, where the geometry of the prediction space
+influences where the model should be accurate or inaccurate
+for some downstream task.
+We will focus on /latent/ geometries in these settings that are
+not directly observable from the data, i.e., the geometry cannot
+be estimated as a submanifold of the Euclidean space the data
+is observed in.
+Instead, the geometry can be shaped via a downstream
+signal that propagates through differentiable operations such as
+the geodesic distance, and log/exp maps on Riemannian manifolds.
+The talk covers the foundational tools here on making operations
+differentiable (in general via the envelope and implicit function theorems,
+and simpler when closed-form operations are available),
+and demonstrates where the end-to-end learned geometry is effective."
+      bio: "Brandon Amos is a Research Scientist in Meta AI’s Fundamental AI
+Research group in NYC. He holds a PhD in Computer Science from
+Carnegie Mellon University and was supported by the USA National
+Science Foundation Graduate Research Fellowship (NSF GRFP). Prior to
+joining Meta, he has worked at Adobe Research, Google DeepMind,
+and Intel Labs. His research interests are in machine learning and
+optimization with a recent focus on reinforcement learning, control,
+optimal transport, and geometry."
+      company: "Meta AI (FAIR)" 
+      link:
+        href: "https://bamos.github.io/"
+      #  text: "WebPage"
+      presentation:
+        title: "Brandon Amos" #Speaker Name
+        time: "Thursday 16h30-17h00"
+
+    - name: "Spotlight Talk"
+      time: "Thursday 17h00-17h15"
+
+    - name: "Spotlight Talk"
+      time: "Thursday 17h15-17h30"
+
+
+    ##### Friday
+    - name: "The Next Generation of AI and Data Science in Computational Health: A Full-Stack Holistic Perspective" # Name Surname
+      photo: "/img/fei.jpeg"
+      abstract: "With the revolution of machine learning technologies in recent years, AI and data science are holding greater promise in understanding diseases and improving quality of care. Computational health is such a research area aiming at developing computational methodologies for deriving insights from various biomedical data. Currently the research in computational health has been mostly siloed, with different communities focusing on analyzing different types of data. However, human health has its own ecosystem with information from all aspects including genome, phenome and exposome. We need to integrate the insights from all of them to have more holistic understandings of diseases. In this talk, I will present the research from my lab health in recent years on building machine learning models for analyzing different types of data involved in different levels of human life science, and the need for transitioning from conventional focused-community based strategy to a holistic full-stack regime for the next-generation health AI/data science research."
+      bio: "Fei Wang is a Professor in Division of Health Informatics, Department of Population Health Sciences, Weill Cornell Medicine (WCM), Cornell University. He is also the founding director of the WCM institute of AI for Digital Health (AIDH). His major research interest is AI and digital health. He has published more than 350 papers on the top venues of related areas such as ICML, KDD, NIPS, CVPR, AAAI, IJCAI, Nature Medicine, JAMA Internal Medicine, Annals of Internal Medicine, Lancet Digital Health, etc. His papers have received over 29,000 citations so far with an H-index 81. His (or his students’) papers have won 8 best paper (or nomination) awards at top international conferences on data mining and medical informatics. His team won the championship of the AACC PTHrP result prediction challenge in 2022, NIPS/Kaggle Challenge on Classification of Clinically Actionable Genetic Mutations in 2017 and Parkinson's Progression Markers' Initiative data challenge organized by Michael J. Fox Foundation in 2016. Dr. Wang is the recipient of the NSF CAREER Award in 2018, as well as the inaugural research leadership award in IEEE International Conference on Health Informatics (ICHI) 2019. Dr. Wang also received prestigious industry awards such as the Sanofi iDEA Award (2021), Google Faculty Research Award (2020) and Amazon AWS Machine Learning for Research Award (2017, 2019 and 2022). Dr. Wang’s Research has been supported by a diverse set of agencies including NSF, NIH, ONR, PCORI, MJFF, AHA, etc. Dr. Wang is the past chair of the Knowledge Discovery and Data Mining working group in American Medical Informatics Association (AMIA). Dr. Wang is a fellow of AMIA, a fellow of IAHSI, a fellow of ACMI and a distinguished member of ACM. "
+      company: "Weill Cornell Medicine" # Cat Foundation
+      link:
+        href: "https://wcm-wanglab.github.io/index.html"
+      #  text: "WebPage"
+      presentation:
+        title: "Fei Wang" #Speaker Name
+        time: "Friday - 09h00-09h40"
+
+
+    - name: "Coffee Break"
+      time: "Friday 9h40-10h00"
+
+    - name: "Keynote Talk" # Name Surname
+      photo: "/img/vahab.jpg"
+      abstract: "TBA"
+      bio: "Vahab Mirrokni is a Google Fellow and VP at Google Research, leading algorithm and optimization research groups at Google. These research teams include: market algorithms, large-scale graph mining, and large-scale optimization. Previously he was a distinguished scientist and senior research director at Google. He received his PhD from MIT in 2005 and his B.Sc. from Sharif University of Technology in 2001. He joined Google Research in 2008, after research positions at Microsoft Research, MIT and Amazon.com. He is the co-winner of best paper awards at KDD, ACM EC, and SODA. His research areas include algorithms, distributed and stochastic optimization, and computational economics. Recently he has been working on various algorithmic problems in machine learning, online optimization and mechanism design, and large-scale graph-based learning ."
+      company: "Google Research" # Cat Foundation
+      link:
+        href: "https://people.csail.mit.edu/mirrokni/Welcome.html"
+      #  text: "WebPage"
+      presentation:
+        title: "Vahab Mirrokni " #Speaker Name
+        time: "Friday - 10h00-11h00"
+
+    # - name: "Keynote Talk"
+    #   time: "Friday 09h40-10h40"
+
+    # - name: "Coffee Break"
+    #   time: "Friday 10h40-11h00"
+
+    - name: "LATENTDOCK: Protein-Protein Docking with Latent Diffusion" # Name Surname
+      photo: "/img/matt.jpg"
+      abstract: "Interactions between proteins form the basis for many biological processes, and understanding their relationships is an area of active research. Computational approaches offer a way to facilitate this understanding without the burden of expensive and time-consuming experiments. Here, we introduce LATENTDOCK, a generative model for protein-protein docking. Our method leverages a diffusion model operating within a geometrically-structured latent space, derived from an encoder producing roto-translational invariant representations of protein complexes. Critically, it is able to perform flexible docking, capturing both backbone and side-chain conformational changes. Furthermore, our model can condition on binding sites, leading to significant performance gains. Empirical evaluations show the efficacy of our approach over relevant baselines, even outperforming models that do not account for flexibility."
+      bio: "Matthew McPartlon is a senior research scientist at VantAI where he works on deep learning models for predicting protein-protein and protein-small molecule interactions. Prior to joining VantAI he completed his PhD in computer science at The University of Chicago under Jinbo Xu. His current research is focused on learning invariant representations of 3D geometry and applying this to structure related problems in biology."
+      company: "VantAI" # Cat Foundation
+      link:
+        href: ""
+      #  text: "WebPage"
+      presentation:
+        title: "Matthew McPartlon" #Speaker Name
+        time: "Friday - 11h00-11h40"
+
+    - name: "Lunch Break and Social(lunch not provided)"
+      time: "Friday - 11h40-13h00"
+
+    - name: "Luca Naef(VantAI), Samuel Stanton(Genetech), Anton Tsitsulin(Google Research), Vassilis Kalantzis(IBM Reserach), Soledad Villar(JHU) " # Name Surname
+      photo: ""
+      # abstract: "Panel Discussion"
+      # bio: ""
+      company: "" # Cat Foundation
+      link:
+        href: ""
+      #  text: "WebPage"
+      presentation:
+        title: "Panel Discussion" #Speaker Name
+        time: "Friday - 13h00-14h00"
+
+    # - name: ""
+    #   time: ""
+
+    - name: "Promises and Pitfalls of Geometric Deep Learning for Protein Design" # Name Surname
+      photo: "/img/samuel.jpg"
+      abstract: "Protein design appears to be an ideal application of geometric deep learning, with well-motivated symmetries and inductive biases from physics and structural biology. Indeed, until recently in silico protein design was completely dominated by hand-crafted structural models. Recent successes with sequence models are challenging this paradigm, but many researchers still believe strong geometric inductive biases are essential for generalization in data-scarce regimes. We will review a pragmatic assessment of the strengths and weaknesses of structural and sequence-based methods, and discuss the greatest opportunities and challenges facing structural methods in particular in contemporary protein design problems."
+      bio: "Samuel Stanton is a Machine Learning Scientist at Genentech, working on ML-driven drug discovery with the Prescient Design team. Prior to joining Genentech, Samuel received his PhD from the NYU Center for Data Science as an NDSEG fellow under the supervision of Dr. Andrew Gordon Wilson. Samuel’s recent work includes core contributions to Genentech’s “lab-in-the-loop” active learning system for molecule lead optimization, as well as basic research on uncertainty quantification and decision-making with machine learning."
+      company: "Genetech" # Cat Foundation
+      link:
+        href: "https://samuelstanton.github.io/"
+      #  text: "WebPage"
+      presentation:
+        title: "Samuel Stanton" #Speaker Name
+        time: "Friday - 14h00-14h40"
+
+    - name: "Coffee Break"
+      time: "Friday 14h40-15h00"
+      
+    - name: "A gentle introduction to causal discovery and local causal discovery" # Name Surname
+      photo: "/img/kyra.png"
+      abstract: "Causal discovery is crucial for understanding the data-generating mechanism and the causal relationships between variables. Additionally, it has an important application in causal inference in the context of observational studies: it can enable the identification of valid adjustment sets (VAS) for unbiased effect estimation. In this talk, I will introduce graphical models as well as some classical constraint-based causal discovery algorithms. We will see how these methods are notoriously expensive in the nonparametric setting, with exponential time and sample complexity in the worst case. Finally, I will introduce our recent work Local Discovery by Partitioning, a local causal discovery method that is tailored towards VAS identification."
+      bio: "Kyra Gan is an Assistant Professor of Operations Research and Information Engineering at Cornell Tech. Prior to joining Cornell, She was a postdoctoral fellow in the Department of Harvard Statistics, working with Susan Murphy. She obtained her Ph.D. degree in Operations Research from the Tepper School of Business, Carnegie Mellon University in May 2022. Prior to CMU, She received my BA degrees in Mathematics (with the Ann Kirsten Pokora Prize) and Economics from Smith College in May 2017. Her research interests include adaptive/online algorithm design in personalized treatment (including micro-randomized trials and N-of-1 trials) under constrained settings, robust and efficient inference and causal discovery methods."
+      company: "Cornell Tech" # Cat Foundation
+      link:
+        href: "https://kyra-gan.github.io/"
+      #  text: "WebPage"
+      presentation:
+        title: "Kyra Gan" #Speaker Name
+        time: "Friday - 15h00-15h40"
+
+    - name: "Capturing graph directionality using  transformers" # Name Surname
+      photo: "/img/me.jpg"
+      abstract: "Most existing graph transformers typically capture distances between graph nodes and do not
+take edge direction into account. This is a limiting assumption since many graph applications
+need to exploit sophisticated relationships in graph data, such as time, causality, or generic
+dependency constraints. We introduce a novel graph transformer architecture that explicitly
+takes into account the directionality between connected graph nodes. To achieve this, we make
+use of dual encodings to represent both potential roles, i.e., source or target, of each pair
+of vertices linked by a directed edge. These encodings are learned by leveraging the latent
+adjacency information extracted from a directional attention module, localized with $k$-hop
+neighborhood information. Extensive experiments on synthetic and real graph datasets show that
+our approach can lead to accuracy gains. We also discuss an exploration in mapping directed
+graph transformers to quantum computers."
+      bio: "Vasileios Kalantzis is a Senior Research Scientist at IBM T.J. Watson Research Center, NY. Prior to his current role he was a Herman H. Goldstine Memorial Postdoctoral fellow (2018-2019) and Staff Research Scientist (2019-2023). Vasileios obtained his PhD (2018) and MSc (2016) in Computer Science and Engineering from the University of Minnesota, Twin Cities, and his MSc (2014) and MEng (2011) in Computer Engineering from the University of Patras, Greece. His research interests lie in topics in numerical linear algebra, high-performance computing, graph analytics, and randomized algorithms."
+      company: "IBM Research" # Cat Foundation
+      link:
+        href: "https://vkalantzi.github.io/"
+      #  text: "WebPage"
+      presentation:
+        title: "Vassilis Kalantzis" #Speaker Name
+        time: "Friday - 15h40-16h20"
+
+    # - name: "The Next Generation of AI and Data Science in Computational Health: A Full-Stack Holistic Perspective" # Name Surname
+    #   photo: "/img/fei.jpeg"
+    #   abstract: "With the revolution of machine learning technologies in recent years, AI and data science are holding greater promise in understanding diseases and improving quality of care. Computational health is such a research area aiming at developing computational methodologies for deriving insights from various biomedical data. Currently the research in computational health has been mostly siloed, with different communities focusing on analyzing different types of data. However, human health has its own ecosystem with information from all aspects including genome, phenome and exposome. We need to integrate the insights from all of them to have more holistic understandings of diseases. In this talk, I will present the research from my lab health in recent years on building machine learning models for analyzing different types of data involved in different levels of human life science, and the need for transitioning from conventional focused-community based strategy to a holistic full-stack regime for the next-generation health AI/data science research."
+    #   bio: "Fei Wang is a Professor in Division of Health Informatics, Department of Population Health Sciences, Weill Cornell Medicine (WCM), Cornell University. He is also the founding director of the WCM institute of AI for Digital Health (AIDH). His major research interest is AI and digital health. He has published more than 350 papers on the top venues of related areas such as ICML, KDD, NIPS, CVPR, AAAI, IJCAI, Nature Medicine, JAMA Internal Medicine, Annals of Internal Medicine, Lancet Digital Health, etc. His papers have received over 29,000 citations so far with an H-index 81. His (or his students’) papers have won 8 best paper (or nomination) awards at top international conferences on data mining and medical informatics. His team won the championship of the AACC PTHrP result prediction challenge in 2022, NIPS/Kaggle Challenge on Classification of Clinically Actionable Genetic Mutations in 2017 and Parkinson's Progression Markers' Initiative data challenge organized by Michael J. Fox Foundation in 2016. Dr. Wang is the recipient of the NSF CAREER Award in 2018, as well as the inaugural research leadership award in IEEE International Conference on Health Informatics (ICHI) 2019. Dr. Wang also received prestigious industry awards such as the Sanofi iDEA Award (2021), Google Faculty Research Award (2020) and Amazon AWS Machine Learning for Research Award (2017, 2019 and 2022). Dr. Wang’s Research has been supported by a diverse set of agencies including NSF, NIH, ONR, PCORI, MJFF, AHA, etc. Dr. Wang is the past chair of the Knowledge Discovery and Data Mining working group in American Medical Informatics Association (AMIA). Dr. Wang is a fellow of AMIA, a fellow of IAHSI, a fellow of ACMI and a distinguished member of ACM. "
+    #   company: "Weill Cornell Medicine" # Cat Foundation
+    #   link:
+    #     href: ""
+    #   #  text: "WebPage"
+    #   presentation:
+    #     title: "Fei Wang" #Speaker Name
+    #     time: "Friday - 15h40-16h20"
+
+    - name: "Poster Session"
+      time: "Friday 16h20-17h00"
+    
+    - name: "Closing Remarks"
+      time: "Friday 17h00-17h15"
+
+
+  selected_talks:
+
+    - slot: "Thursday 17h00-17h15"
+      title: "Rethinking Symmetries in Graph Neural Networks"
+      speaker: "Teresa Huang"
+
+    - slot: "Thursday 17h15-17h30"
+      title: "Network Formation and Dynamics Among Multi-LLMs"
+      speaker: "Marios Papachristou"
+
+
+  # List of Contacts
+  Contacts:
+
+    - name: "Ioannis Koutis"
+      logo: "/img/IK.jpg"
+      email: "ikoutis@njit.edu"
+      affiliation: "New Jersey Institute of Technology"
+      #url: "https://gohugo.io"
+      home: "https://web.njit.edu/~ikoutis/" 
+      linkedin: "https://www.linkedin.com/in/yiannis-koutis-08b3a84" 
+      googleScholar: "https://scholar.google.com/citations?user=ONXC8_gAAAAJ&hl=en" 
+
+    - name: "Vincent Oria"
+      logo: "/img/vincent.jpg"
+      email: "vincent.oria@njit.edu"
+      affiliation: "New Jersey Institute of Technology"
+      #url: "https://gohugo.io"
+      home: "https://web.njit.edu/~oria/" 
+      linkedin: "https://www.linkedin.com/in/vincent-oria-7b06a114/" 
+      googleScholar: "https://scholar.google.com/citations?hl=en&user=PlgV6FwAAAAJ&view_op=list_works&sortby=pubdate" 
+
+    - name: "Ali Parviz"
+      logo: "/img/Ali1.jpg"
+      email: "ap2248@njit.edu"
+      affiliation: "New Jersey Institute of Technology"
+      # home: "https://mikelhernaez.github.io/" 
+      linkedin: "https://www.linkedin.com/in/alipokhbe/" 
+      googleScholar: "https://scholar.google.com/citations?user=GU1VHgMAAAAJ&hl=en" 
+
+    - name: "Yuanqi Du"
+      logo: "/img/yuanqi.jpg"
+      email: "yuanqidu@cs.cornell.edu"
+      affiliation: "Cornell University"
+      # url: "https://yuanqidu.github.io/"
+      home: "https://yuanqidu.github.io/"
+      linkedin: "https://www.linkedin.com/in/yuanqi-du-523968148" 
+      googleScholar: "https://scholar.google.com/citations?user=fAc_zZMAAAAJ&hl=en" # Add the Google Scholar URL here 
+
+
+    - name: "Yingheng Wang"
+      logo: "/img/yingheng.jpg"
+      email: "yingheng@cs.cornell.edu"
+      affiliation: "Cornell University"
+      # url: "isjakewong.github.io"
+      home: "https://isjakewong.github.io"
+      linkedin: "https://www.linkedin.com/in/yingheng-w-7b8066171/" 
+      googleScholar: "https://scholar.google.com/citations?user=4WEa7tMAAAAJ&hl=en"
+
+    - name: "Derek Lim"
+      logo: "/img/dereck.jpg"
+      email: "dereklim@mit.edu"
+      affiliation: "MIT"
+      # url: "cptq.github.io"
+      home: "cptq.github.io"
+      linkedin: "https://www.linkedin.com/in/lim-derek/" 
+      googleScholar: "https://scholar.google.com/citations?user=y9YTBIsAAAAJ&hl=en"
+
+    - name: "Jacqueline Maasch"
+      logo: "/img/jacq.png"
+      email: "maasch@cs.cornell.edu"
+      affiliation: "Cornell Tech"
+      # url: 
+      home: "https://jmaasch.github.io/"
+      linkedin: "https://www.linkedin.com/in/jmaasch/"
+      googleScholar: "https://scholar.google.com/citations?user=5l9n9J8AAAAJ&hl=en&authuser=1"
+
+    - name: "Yanbang Wang"
+      logo: "/img/yangbang.jpg"
+      email: "ywangdr@cs.cornell.edu"
+      affiliation: "Cornell University"
+      url: ""
+      home: "https://www.cs.cornell.edu/~ywangdr/"
+      linkedin: "https://www.linkedin.com/in/ywangdr/" 
+      googleScholar: "https://scholar.google.com/citations?user=Ch3YUgsAAAAJ&hl=en"
+
+  # Team:
+    # - name: "Yingheng"
+    # - name: "Dereck Lim"
+
+
