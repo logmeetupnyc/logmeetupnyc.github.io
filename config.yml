@@ -457,4 +457,8 @@ graph transformers to quantum computers."
     # - name: "Yingheng"
     # - name: "Dereck Lim"
 
+  past_events:
+
+    - slot: "First LoG New York Meetup (March 2024)"
+
 
