@@ -9,7 +9,7 @@ params:
   # Conference info
   Name: "LoG New York"
   Description: "LoG Meet Up New York"
-  Date: "Feb 29th - March 1st"
+  Date: "Nov 21st - Nov 22th" #"Feb 29th - March 1st"
   #Price: "Only XX€" # If your event is free, just comment this line
   Venue: "New York"
   Address: "101 Hudson St"
@@ -44,6 +44,7 @@ params:
     sponsors: "Sponsors"
     partners: "Partners"
     organizers: "Organizers"
+    past_events: "Previous Events"
 
   # List of Sponsors
   Sponsors:
