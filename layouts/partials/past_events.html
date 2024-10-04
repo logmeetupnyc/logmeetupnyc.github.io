@@ -3,7 +3,7 @@
 
 <ul class="talks-list">
     {{ $currentSlot := "" }}
-    {{ range .selected_talks }}
+    {{ range .past_events }}
       {{ if ne .slot $currentSlot }}
         {{ if ne $currentSlot "" }}</ul>{{ end }}
         <li class="slot-item">
