@@ -1,4 +1,5 @@
-baseurl: "https://logmeetupnyc.github.io/"
+url: "https://logmeetupnyc.github.io"
+baseurl: "/"
 title: "LoG New York"
 canonifyurls: true
 theme: "hugo-conference"
