@@ -1,5 +1,17 @@
 <h2 class="section-title">{{ .titles.past_events }}</h2>
 
 
-
+<ul class="talks-list">
+    {{ $currentSlot := "" }}
+    {{ range .selected_talks }}
+      {{ if ne .slot $currentSlot }}
+        {{ if ne $currentSlot "" }}</ul>{{ end }}
+        <li class="slot-item">
+          <h4>{{ .slot }}</h4>
+          <ul class="talks-in-slot">
+      {{ end }}
+      {{ $currentSlot = .slot }}
+    {{ end }}
+    </ul>{{/* Close the last talks-in-slot list if needed */}}
+  </ul>
 
