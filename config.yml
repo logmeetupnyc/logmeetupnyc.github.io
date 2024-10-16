@@ -367,15 +367,15 @@ params:
 #       time: "Friday 17h00-17h15"
 
 
-  selected_talks:
+  # selected_talks:
 
-    - slot: "Thursday 17h00-17h15"
-      title: "Rethinking Symmetries in Graph Neural Networks"
-      speaker: "Teresa Huang"
+  #   - slot: "Thursday 17h00-17h15"
+  #     title: "Rethinking Symmetries in Graph Neural Networks"
+  #     speaker: "Teresa Huang"
 
-    - slot: "Thursday 17h15-17h30"
-      title: "Network Formation and Dynamics Among Multi-LLMs"
-      speaker: "Marios Papachristou"
+  #   - slot: "Thursday 17h15-17h30"
+  #     title: "Network Formation and Dynamics Among Multi-LLMs"
+  #     speaker: "Marios Papachristou"
 
 
   # List of Contacts
