@@ -25,7 +25,7 @@ params:
     - about
     - registration
     - cfp
-    - schedule
+    # - schedule
     - speakers
     - selected_talks # comment first upload
     - organizers 
@@ -40,7 +40,7 @@ params:
     registration: "Registration"
     cfp: "Call for talks"
     location: "The Venue"
-    schedule: "Schedule"
+    # schedule: "Schedule"
     speakers: "Speakers"
     selected_talks: "Spotlight Talks"
     sponsors: "Sponsors"
