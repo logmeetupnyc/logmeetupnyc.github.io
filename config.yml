@@ -94,36 +94,36 @@ params:
     - name: "Coffee Break"
       time: "Thursday 10h50-11h10"
 
-    - name: "Giving a Voice to Your Graph:  Data Representations in the LLM Age"
-      photo: "/img/bryan.jpg"
-      url: ""
-      abstract: "Graphs are powerful tools for representing complex real-world relationships, essential for tasks like analyzing social networks or identifying financial trends.  While large language models (LLMs) have revolutionized natural text reasoning, their application to graphs remains an understudied frontier. To bridge this gap, we need to transform structured graph data into representations LLMs can process. This talk delves into our work on finding the correct graph inductive bias for Graph ML and developing strategies to convert graphs into language-like formats for LLMs. I'll explore our work on “Talking Like a Graph”, and our parameter-efficient method, GraphToken, which learns an encoding function to extend prompts with explicit structured information." 
-      bio: "Bryan Perozzi is a Research Scientist in Google Research’s Algorithms and Optimization group, where he routinely analyzes some of the world’s largest (and perhaps most interesting) graphs.  Bryan’s research focuses on developing techniques for learning expressive representations of relational data with neural networks.  These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets.  
-Bryan is an author of 40+ peer-reviewed papers at leading conferences in machine learning and data mining (such as NeurIPS, ICML, ICLR, KDD, and WWW).  His doctoral work on learning network representations (DeepWalk) was awarded the prestigious SIGKDD Dissertation Award.  Bryan received his Ph.D. in Computer Science from Stony Brook University in 2016, and his M.S. from the Johns Hopkins University in 2011."
-      company: "Google Research" 
+    - name: "TBA"
+      # photo: "/img/bryan.jpg"
+      # url: ""
+      # abstract: "Graphs are powerful tools for representing complex real-world relationships, essential for tasks like analyzing social networks or identifying financial trends.  While large language models (LLMs) have revolutionized natural text reasoning, their application to graphs remains an understudied frontier. To bridge this gap, we need to transform structured graph data into representations LLMs can process. This talk delves into our work on finding the correct graph inductive bias for Graph ML and developing strategies to convert graphs into language-like formats for LLMs. I'll explore our work on “Talking Like a Graph”, and our parameter-efficient method, GraphToken, which learns an encoding function to extend prompts with explicit structured information." 
+      # bio: "Bryan Perozzi is a Research Scientist in Google Research’s Algorithms and Optimization group, where he routinely analyzes some of the world’s largest (and perhaps most interesting) graphs.  Bryan’s research focuses on developing techniques for learning expressive representations of relational data with neural networks.  These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets.  
+# Bryan is an author of 40+ peer-reviewed papers at leading conferences in machine learning and data mining (such as NeurIPS, ICML, ICLR, KDD, and WWW).  His doctoral work on learning network representations (DeepWalk) was awarded the prestigious SIGKDD Dissertation Award.  Bryan received his Ph.D. in Computer Science from Stony Brook University in 2016, and his M.S. from the Johns Hopkins University in 2011."
+      company: "Meta" 
       link:
-        href: "https://research.google/people/bryan-perozzi/"
+        href: "https://ghliu.github.io/"
         #text: "@linus"
       presentation:
-        title: "Bryan Perozzi" # Speaker Name
-        time: "Thursday 11h10-12h10"
+        title: "Guan-Horng Liu" # Speaker Name
+        # time: "Thursday 11h10-12h10"
 
 
     - name: "Lunch Break and Social(lunch not provided)"
       time: "Thursday 12h10-13h30"
 
-    - name: "Flow Matching on General Geometries" # Name Surname
-      photo: "/img/ricky.jpg"
-      url: "www.example.org"
-      abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries." 
-      bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
-      company: "FAIR, Meta" 
+    - name: "TBA" # Name Surname
+      # photo: "/img/ricky.jpg"
+      # url: "www.example.org"
+      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries." 
+      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
+      company: "Flatiron Institute" 
       link:
-        href: "https://rtqichen.github.io//"
+        href: "https://users.flatironinstitute.org/~jhan/"
         #text: "@linus"
       presentation:
-        title: "Ricky Tian Qi Chen" # Speaker Name
-        time: "Thursday 13h30-14h10"
+        title: "Jiequn Han" # Speaker Name
+        # time: "Thursday 13h30-14h10"
 
     - name: "Hyperbolic Brain Network Representations for Subjective Cognitive Decline
 Prediction and Detecting Healthy Brain Aging Trajectories" # Name Surname
