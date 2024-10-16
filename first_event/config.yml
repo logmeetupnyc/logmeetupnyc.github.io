@@ -94,17 +94,17 @@ params:
       time: "Thursday 10h50-11h10"
 
     - name: "Shubhendu Trivedi"
-      photo: "/img/shubhendu.jpg"
-      url: ""
-      abstract: "" 
-      bio: ""
+      # photo: "/img/shubhendu.jpg"
+      # url: ""
+      # abstract: "" 
+      # bio: ""
       company: "MIT" 
-      link:
-        href: "https://research.google/people/bryan-perozzi/"
-        #text: "@linus"
-      presentation:
-        title: "Bryan Perozzi" # Speaker Name
-        time: "Thursday 11h10-12h10"
+      # link:
+      #   href: "https://research.google/people/bryan-perozzi/"
+      #   #text: "@linus"
+      # presentation:
+      #   title: "Bryan Perozzi" # Speaker Name
+      #   time: "Thursday 11h10-12h10"
 
 
     - name: "Lunch Break and Social(lunch not provided)"
