@@ -10,7 +10,7 @@ params:
   # Conference info
   Name: "Second LoG New York Meetup"
   Description: "LoG Meet Up New York"
-  Date: "Nov 21st - Nov 22th" #"Feb 29th - March 1st"
+  Date: "Nov 21st - Nov 22nd" #"Feb 29th - March 1st"
   #Price: "Only XX€" # If your event is free, just comment this line
   Venue: "New York"
   Address: "101 Hudson St"
