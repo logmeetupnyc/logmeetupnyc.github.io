@@ -78,18 +78,18 @@ params:
         title: "Anton Tsitsulin" #Speaker Name
         time: "Thursday 09h30-10h10"
 
-    - name: "Measure Transport Perspectives on Sampling, Generative Modeling, and Beyond" # Name Surname
+    - name: "TBA" # Name Surname
       photo: "/img/micheal.jpg"
-      abstract: "Both the social and natural world are replete with complex structure that often has a probabilistic interpretation. In the former, we may seek to model, for example, the distribution of natural images or language, for which there are copious amounts of real world data. In the latter, we are given the probabilistic rule describing a physical process, but no procedure for generating samples under it necessary to perform simulation. In this talk, I will discuss a generative modeling paradigm based on maps between probability distributions that is applicable to both of these circumstances. I will describe a means for learning these maps in the context of problems in statistical physics, how to impose symmetries on them to facilitate learning, and how to use the resultant generative models in a statistically unbiased fashion. I will then describe a paradigm that unifies flow-based and diffusion based generative models by recasting generative modeling as a problem of regression. I will demonstrate the efficacy of doing this in computer vision problems and end with some future challenges and applications."
-      bio: "Michael Albergo is a postdoc at the Courant Institute of Mathematical Sciences. His research interests lie at the intersection of generative modeling and statistical physics, with a focus on designing machine learning methods to advance scientific computing. He received his PhD under the supervision of Kyle Cranmer, Yann LeCun, and Eric Vanden-Eijnden at NYU, his MPhil at the University of Cambridge, and his AB at Harvard University. Starting in August 2024 he will be a Junior Fellow at the Harvard Society of Fellows and an IAIFI Fellow at MIT."
+      # abstract: "Both the social and natural world are replete with complex structure that often has a probabilistic interpretation. In the former, we may seek to model, for example, the distribution of natural images or language, for which there are copious amounts of real world data. In the latter, we are given the probabilistic rule describing a physical process, but no procedure for generating samples under it necessary to perform simulation. In this talk, I will discuss a generative modeling paradigm based on maps between probability distributions that is applicable to both of these circumstances. I will describe a means for learning these maps in the context of problems in statistical physics, how to impose symmetries on them to facilitate learning, and how to use the resultant generative models in a statistically unbiased fashion. I will then describe a paradigm that unifies flow-based and diffusion based generative models by recasting generative modeling as a problem of regression. I will demonstrate the efficacy of doing this in computer vision problems and end with some future challenges and applications."
+      # bio: "Michael Albergo is a postdoc at the Courant Institute of Mathematical Sciences. His research interests lie at the intersection of generative modeling and statistical physics, with a focus on designing machine learning methods to advance scientific computing. He received his PhD under the supervision of Kyle Cranmer, Yann LeCun, and Eric Vanden-Eijnden at NYU, his MPhil at the University of Cambridge, and his AB at Harvard University. Starting in August 2024 he will be a Junior Fellow at the Harvard Society of Fellows and an IAIFI Fellow at MIT."
         
-      company: "Courant Institute of Mathematical Sciences" 
+      company: "MIT" 
       link:
-        href: "http://malbergo.me/"
+        href: "https://shubhendu-trivedi.org/"
       #  text: "WebPage"
       presentation:
-        title: "Michael S Albergo" #Speaker Name
-        time: "Thursday 10h10-10h50"
+        title: "Shubhendu Trivedi" #Speaker Name
+        # time: "Thursday 10h10-10h50"
 
     - name: "Coffee Break"
       time: "Thursday 10h50-11h10"
