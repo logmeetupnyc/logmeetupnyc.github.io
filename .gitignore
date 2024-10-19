@@ -3,3 +3,6 @@ my-conf/*
 */.DS_Store
 static/.DS_Store
 static/img/.DS_Store
+.hugo_build.lock
+.idea/
+
