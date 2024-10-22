@@ -214,7 +214,7 @@ params:
       # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
       company: "Morgan Stanley"
       link:
-        href: "Wei Deng"
+        href: "https://www.weideng.org/"
         #text: "@linus"
       presentation:
         title: "Wei Deng" # Speaker Name
