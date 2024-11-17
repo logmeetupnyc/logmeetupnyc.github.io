@@ -66,16 +66,16 @@ params:
     - name: "Opening NYC LoG"
       time: "Thursday 09h15-09h30"
 
-    - name: "Time: TBA" # Name Surname
-      photo: "/img/qitian.jpeg"
+    - name: "Nathan Frey" # Name Surname
+      photo: "/img/nathan.png"
       # abstract: "We rarely have clear supervision signals in real-world data. Unsupervised learning is even more important to get right for graph-structured data since labeling graphs is a hard task even for competent human labellers. This talk will cover novel ways to do unsupervised graph learning, novel ways of improving structure of graphs, and our approach to benchmarking graph neural networks."
       # bio: "Anton Tsitsulin is a research scientist at Google Research in NYC. His research interests are scalable, principled methods for analyzing graph data in an unsupervised manner. He received his Ph.D. from the university of Bonn in 2021." 
-      company: "MIT/Broad Institute" 
+      company: "Genentech" 
       link:
-        href: "https://qitianwu.github.io/"
+        href: "https://ncfrey.github.io/"
       #  text: "WebPage"
       presentation:
-        title: "Qitian Wu" #Speaker Name
+        title: "Nathan Frey" #Speaker Name
         # time: "Thursday 09h30-10h10"
 
 
