@@ -223,17 +223,17 @@ params:
 
 
 
-    - name: "Time: TBA" # Name Surname
-      photo: "/img/giorgos.jpg"
+    - name: "Time: 15h10-15h50" # Name Surname
+      photo: "/img/huzefa.jpeg"
       # url: "www.example.org"
       # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
       # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
-      company: "IBM Research"
+      company: "Amazon"
       link:
-        href: "https://www.linkedin.com/in/giorgos-kollias-7663b21b/"
+        href: "https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en"
         #text: "@linus"
       presentation:
-        title: "Giorgos Kollias" # Speaker Name
+        title: "Huzefa Rangwala" # Speaker Name
         # time: "Thursday 13h30-14h10"
 
 #     - name: "Hyperbolic Brain Network Representations for Subjective Cognitive Decline
