@@ -140,18 +140,6 @@ params:
     - name: "Coffee Break"
       time: "Thursday 14h50-15h10"
 
-    - name: "Towards Graph Transformers at Scale" # Name Surname
-      photo: "/img/qitian.jpeg"
-      abstract: "Representation learning over graph-structured data is a long-standing fundamental challenge in learning on graphs. Recent advances have demonstrated the promise of Transformer-style models that leverage global all-pair attentions for graph representation learning. However, the quadratic complexity and complicated architectures play as two computational bottlenecks for Transformers in large-scale data, and beyond accuracy criteria, it lacks principled guidance for interpretable model designs. This talk will introduce three recent works that present a scalable graph Transformer with linear complexity (NodeFormer), a simplified Transformer with single-layer global propagation (SGFormer), and an energy-constrained diffusion framework that reveals the inherent connections between graph neural networks and Transformers (DIFFormer). Future directions will be discussed at the end of this talk."
-      bio: "Qitian Wu is a postdoctoral fellow at Broad Institute of MIT and Harvard. Prior to this, he achieved PhD in Computer Science at Shanghai Jiao Tong University. His research interest focuses on machine learning with complex structured data. His recent works endeavor to develop efficient foundational backbones for representing large-scale graph data and provably generalizable learning algorithms for handling distribution shifts. He also seek to apply this methodology to address the pressing problems in recommender systems and biomedical science. He is the recipient of Eric and Wendy Schmidt Center Fellowship, Microsoft Research PhD Fellowship, and Baidu PhD Scholarship." 
-      company: "Broad Institute of MIT and Harvard" 
-      link:
-        href: "https://qitianwu.github.io/"
-      #  text: "WebPage"
-      presentation:
-        title: "Qitian Wu" #Speaker Name
-        time: "Thursday 15h10-15h50"
-
     - name: "Discrete generative modeling with masked diffusions" # Name Surname
       photo: "/img/jiaxin.jpg"
       abstract: "Modern generative AI has developed along two distinct paths: autoregressive models for discrete data (such as text) and diffusion models for continuous data (like images). Bridging this divide by adapting diffusion models to handle discrete data represents a compelling avenue for unifying these disparate approaches. However, existing work in this area has been hindered by unnecessarily complex model formulations and unclear relationships between different perspectives, leading to suboptimal parameterization, training objectives, and ad hoc adjustments to counteract these issues. In this talk, I will introduce masked diffusion models, a simple and general framework that unlock the full potential of diffusion models for discrete data. We show that the continuous-time variational objective of such models is a simple weighted integral of cross-entropy losses. Our framework also enables training generalized masked diffusion models with state-dependent masking schedules. When evaluated by perplexity, our models trained on OpenWebText surpass prior diffusion language models at GPT-2 scale and demonstrate superior performance on 4 out of 5 zero-shot language modeling tasks. Furthermore, our models vastly outperform previous discrete diffusion models on pixel-level image modeling, achieving 2.75 (CIFAR-10) and 3.40 (ImageNet 64×64) bits per dimension that are better than autoregressive models of similar sizes."
@@ -162,6 +150,19 @@ params:
       #  text: "WebPage"
       presentation:
         title: "Jiaxin Shi" #Speaker Name
+        time: "Thursday 15h10-15h50"
+
+    - name: "Efficient Approximately Equivariant Neural Networks via Symmetry-Based Structured Matrices" # Name Surname
+      photo: "/img/shubhendu.jpeg"
+      abstract: "There has been much recent interest in designing symmetry-aware neural networks exhibiting relaxed equivariance. Such NNs aim to interpolate between being exactly equivariant and being fully flexible, affording consistent performance benefits. This talk will present a method to construct approximately equivariant networks that perform roughly at par with the state of the art equivariant networks, but usually operate with one or two orders of magnitude fewer parameters. The construction is based on a novel generalization of classical low-displacement rank theory, which works only for the cyclic group, to general discrete groups and their homogeneous spaces. The generalization allows the design of special structured matrices specific to a group of interest that allows for generalizing equivariant networks, and provide a recipe for controlling approximation error. Ongoing work on efficient tensorizations and GPU implementations will also be discussed."
+      bio: "Shubhendu Trivedi works on the theoretical and applied aspects of machine learning. For the past few years his research has focused on developing rigorous theoretical and engineering tools for data-efficient machine learning (e.g. via equivariant and geometric deep learning) and enabling their safe and reliable deployment in real-world applications and decision-making pipelines (e.g. via conformal prediction and provable uncertainty quantification). In research contexts, he has spent time at the MIT CSAIL, Brown University, Fermilab, University of Chicago, TTI-Chicago, WPI, and for industrial work he has been involved with data science consulting in the pharmaceuticals, airlines, and FMCG sectors, and has also spent time at ZS, NEC, United, amongst others. In addition to the above work, he has co-founded a startup in semiconductors and serves on the boards of multiple startups, the most recent of which include Reexpress (LLMs), Brainwell Health (Imaging), and Spark Neuro (EEG)."
+        
+      company: "" 
+      link:
+        href: "https://shubhendu-trivedi.org/"
+      #  text: "WebPage"
+      presentation:
+        title: "Shubhendu Trivedi" #Speaker Name
         time: "Thursday 15h50-16h30"
 
     - name: "TBA" # Name Surname
@@ -221,7 +222,7 @@ params:
         #text: "@linus"
       presentation:
         title: "Alberto Bietti" # Speaker Name
-        # time: "Friday 13h00-13h40"
+        time: "Friday 13h00-13h40"
 
     - name: "Learning Scalable Diffusion Models using Optimality and Constraint Structures"
       photo: "/img/guan-horng.png"
@@ -250,21 +251,22 @@ params:
         #text: "@linus"
       presentation:
         title: "Wei Deng" # Speaker Name
-        # time: "Friday 14h40-15h20"
+        time: "Friday 14h40-15h20"
 
 
-    - name: "Time: 15h50-16h30" # Name Surname
-      photo: "/img/shubhendu.jpeg"
-      abstract: "There has been much recent interest in designing symmetry-aware neural networks exhibiting relaxed equivariance. Such NNs aim to interpolate between being exactly equivariant and being fully flexible, affording consistent performance benefits. This talk will present a method to construct approximately equivariant networks that perform roughly at par with the state of the art equivariant networks, but usually operate with one or two orders of magnitude fewer parameters. The construction is based on a novel generalization of classical low-displacement rank theory, which works only for the cyclic group, to general discrete groups and their homogeneous spaces. The generalization allows the design of special structured matrices specific to a group of interest that allows for generalizing equivariant networks, and provide a recipe for controlling approximation error. Ongoing work on efficient tensorizations and GPU implementations will also be discussed."
-      bio: "Shubhendu Trivedi works on the theoretical and applied aspects of machine learning. For the past few years his research has focused on developing rigorous theoretical and engineering tools for data-efficient machine learning (e.g. via equivariant and geometric deep learning) and enabling their safe and reliable deployment in real-world applications and decision-making pipelines (e.g. via conformal prediction and provable uncertainty quantification). In research contexts, he has spent time at the MIT CSAIL, Brown University, Fermilab, University of Chicago, TTI-Chicago, WPI, and for industrial work he has been involved with data science consulting in the pharmaceuticals, airlines, and FMCG sectors, and has also spent time at ZS, NEC, United, amongst others. In addition to the above work, he has co-founded a startup in semiconductors and serves on the boards of multiple startups, the most recent of which include Reexpress (LLMs), Brainwell Health (Imaging), and Spark Neuro (EEG)."
-        
-      company: "" 
+    - name: "Towards Graph Transformers at Scale" # Name Surname
+      photo: "/img/qitian.jpeg"
+      abstract: "Representation learning over graph-structured data is a long-standing fundamental challenge in learning on graphs. Recent advances have demonstrated the promise of Transformer-style models that leverage global all-pair attentions for graph representation learning. However, the quadratic complexity and complicated architectures play as two computational bottlenecks for Transformers in large-scale data, and beyond accuracy criteria, it lacks principled guidance for interpretable model designs. This talk will introduce three recent works that present a scalable graph Transformer with linear complexity (NodeFormer), a simplified Transformer with single-layer global propagation (SGFormer), and an energy-constrained diffusion framework that reveals the inherent connections between graph neural networks and Transformers (DIFFormer). Future directions will be discussed at the end of this talk."
+      bio: "Qitian Wu is a postdoctoral fellow at Broad Institute of MIT and Harvard. Prior to this, he achieved PhD in Computer Science at Shanghai Jiao Tong University. His research interest focuses on machine learning with complex structured data. His recent works endeavor to develop efficient foundational backbones for representing large-scale graph data and provably generalizable learning algorithms for handling distribution shifts. He also seek to apply this methodology to address the pressing problems in recommender systems and biomedical science. He is the recipient of Eric and Wendy Schmidt Center Fellowship, Microsoft Research PhD Fellowship, and Baidu PhD Scholarship." 
+      company: "Broad Institute of MIT and Harvard" 
       link:
-        href: "https://shubhendu-trivedi.org/"
+        href: "https://qitianwu.github.io/"
       #  text: "WebPage"
       presentation:
-        title: "Shubhendu Trivedi" #Speaker Name
-        # time: "Friday 15h20-16h00"
+        title: "Qitian Wu" #Speaker Name
+        time: "Friday 15h20-16h00"
+
+
 
 
 
