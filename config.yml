@@ -66,7 +66,81 @@ params:
     - name: "Opening NYC LoG"
       time: "Thursday 09h15-09h30"
 
-    - name: "Time: 14h10-14h50" # Name Surname
+    - name: "TBA" # Name Surname
+      photo: "/img/nathan.png"
+      # url: "www.example.org"
+      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
+      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
+      company: "Genentech"
+      link:
+        href: "https://ncfrey.github.io/"
+        #text: "@linus"
+      presentation:
+        title: "Nathan Frey" # Speaker Name
+        time: "Thursday 9h30-10h10"
+
+    - name: "Directed Graph Transfomers" # Name Surname
+      photo: "/img/giorgos.jpg"
+      # url: "www.example.org"
+      abstract: "TBA"
+      bio: "Dr. Georgios Kollias is a Research Staff Member (RSM) currently working on memory-augmented LLMs and graph NNs at IBM T.J. Watson Research Center, USA. He obtained the BSc in Physics in 2000 and the MSc in Computational Science in 2002 from the University of Athens, Greece, and the PhD in Computer Science from the University of Patras, Greece, in 2009. He then moved to Purdue University, USA and worked as a Postdoctoral Research Associate in the Computer Science Department and the Center for Science of Information till April 2013. Next, he joined IBM Research, USA also holding a research position at IBM Zurich Research Lab, Switzerland (August 2014 - April 2015). His research interests span the areas of graph mining and analytics, parallel, distributed and high-performance computing, numerical linear algebra and matrix computations, big data analytics, problem solving environments, quantum computations, nonlinear dynamical systems and machine learning applications."
+      company: "IBM Research"
+      link:
+        href: "https://www.linkedin.com/in/giorgos-kollias-7663b21b/"
+        #text: "@linus"
+      presentation:
+        title: "Giorgos Kollias" # Speaker Name
+        time: "Thursday 10h10-10h50"
+
+    - name: "Coffee Break"
+      time: "Thursday 10h50-11h10"
+
+    - name: "TBA" # Name Surname
+      photo: "/img/bryan.jpg"
+      abstract: "TBA" 
+      bio: "Bryan Perozzi is a Research Scientist in Google Research’s Algorithms and Optimization group, where he routinely analyzes some of the world’s largest (and perhaps most interesting) graphs.  Bryan’s research focuses on developing techniques for learning expressive representations of relational data with neural networks.  These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets. # Bryan is an author of 40+ peer-reviewed papers at leading conferences in machine learning and data mining (such as NeurIPS, ICML, ICLR, KDD, and WWW).  His doctoral work on learning network representations (DeepWalk) was awarded the prestigious SIGKDD Dissertation Award.  Bryan received his Ph.D. in Computer Science from Stony Brook University in 2016, and his M.S. from the Johns Hopkins University in 2011. "
+      company: "Google Research"
+      link:
+        href: "http://www.perozzi.net/"
+        #text: "@linus"
+      presentation:
+        title: "Bryan Perozzi" # Speaker Name
+        time: "Thursday 11h10-12h00"
+
+    - name: "Lunch Break and Social(lunch not provided)"
+      time: "Thursday 12h00-13h30"
+
+
+    - name: "TBA"   # Name Surname
+      photo: "/img/rajesh.jpg"
+      # url: "www.example.org"
+      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
+      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
+      company: "Google Research"
+      link:
+        href: "https://rajeshjayaram.com/"
+        #text: "@linus"
+      presentation:
+        title: "Rajesh Jayaram" # Speaker Name
+        time: "Thursday 13h30-14h10"
+
+    - name: "TBA" # Name Surname
+      photo: "/img/huzefa.jpeg"
+      # url: "www.example.org"
+      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
+      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
+      company: "Amazon"
+      link:
+        href: "https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en"
+        #text: "@linus"
+      presentation:
+        title: "Huzefa Rangwala" # Speaker Name
+        time: "Thursday 14h10-14h50"
+    
+    - name: "Coffee Break"
+      time: "Thursday 14h50-15h10"
+
+    - name: "Towards Graph Transformers at Scale" # Name Surname
       photo: "/img/qitian.jpeg"
       abstract: "Representation learning over graph-structured data is a long-standing fundamental challenge in learning on graphs. Recent advances have demonstrated the promise of Transformer-style models that leverage global all-pair attentions for graph representation learning. However, the quadratic complexity and complicated architectures play as two computational bottlenecks for Transformers in large-scale data, and beyond accuracy criteria, it lacks principled guidance for interpretable model designs. This talk will introduce three recent works that present a scalable graph Transformer with linear complexity (NodeFormer), a simplified Transformer with single-layer global propagation (SGFormer), and an energy-constrained diffusion framework that reveals the inherent connections between graph neural networks and Transformers (DIFFormer). Future directions will be discussed at the end of this talk."
       bio: "Qitian Wu is a postdoctoral fellow at Broad Institute of MIT and Harvard. Prior to this, he achieved PhD in Computer Science at Shanghai Jiao Tong University. His research interest focuses on machine learning with complex structured data. His recent works endeavor to develop efficient foundational backbones for representing large-scale graph data and provably generalizable learning algorithms for handling distribution shifts. He also seek to apply this methodology to address the pressing problems in recommender systems and biomedical science. He is the recipient of Eric and Wendy Schmidt Center Fellowship, Microsoft Research PhD Fellowship, and Baidu PhD Scholarship." 
@@ -76,10 +150,51 @@ params:
       #  text: "WebPage"
       presentation:
         title: "Qitian Wu" #Speaker Name
-        # time: "Thursday 09h30-10h10"
+        time: "Thursday 15h10-15h50"
+
+    - name: "Discrete generative modeling with masked diffusions" # Name Surname
+      photo: "/img/jiaxin.jpg"
+      abstract: "Modern generative AI has developed along two distinct paths: autoregressive models for discrete data (such as text) and diffusion models for continuous data (like images). Bridging this divide by adapting diffusion models to handle discrete data represents a compelling avenue for unifying these disparate approaches. However, existing work in this area has been hindered by unnecessarily complex model formulations and unclear relationships between different perspectives, leading to suboptimal parameterization, training objectives, and ad hoc adjustments to counteract these issues. In this talk, I will introduce masked diffusion models, a simple and general framework that unlock the full potential of diffusion models for discrete data. We show that the continuous-time variational objective of such models is a simple weighted integral of cross-entropy losses. Our framework also enables training generalized masked diffusion models with state-dependent masking schedules. When evaluated by perplexity, our models trained on OpenWebText surpass prior diffusion language models at GPT-2 scale and demonstrate superior performance on 4 out of 5 zero-shot language modeling tasks. Furthermore, our models vastly outperform previous discrete diffusion models on pixel-level image modeling, achieving 2.75 (CIFAR-10) and 3.40 (ImageNet 64×64) bits per dimension that are better than autoregressive models of similar sizes."
+      bio: "Jiaxin Shi is a research scientist at Google DeepMind. Previously, he was a postdoctoral researcher at Stanford and Microsoft Research New England. He obtained his Ph.D. from Tsinghua University. His research interests broadly involve probabilistic and algorithmic models for learning as well as the interface between them. Jiaxin served as an area chair for NeurIPS and AISTATS. He is a recipient of Microsoft Research PhD fellowship. His first-author paper was recognized by a NeurIPS 2022 outstanding paper award." 
+      company: "Google DeepMind" 
+      link:
+        href: "https://jiaxins.io/"
+      #  text: "WebPage"
+      presentation:
+        title: "Jiaxin Shi" #Speaker Name
+        time: "Thursday 15h50-16h30"
+
+    - name: "TBA" # Name Surname
+      photo: "/img/clayton.png"
+      # url: "www.example.org"
+      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
+      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
+      company: "Google Research"
+      link:
+        href: "https://claytonsanford.com/"
+        #text: "@linus"
+      presentation:
+        title: "Clayton Sanford" # Speaker Name
+        time: "Friday 09h00-09h40"
+
+    - name: "Coffee Break"
+      time: "Friday 09h40-10h00"
+
+    - name: "Learning PDEs on General Geometries through Neural Operators with Equivalence" # Name Surname
+      photo: "/img/jiequan.png"
+      # url: "www.example.org"
+      abstract: "Many partial differential equations (PDEs) of interest in science and engineering are strongly shaped by the underlying geometry, with data often represented on unstructured meshes and various coordinate systems in use. These factors create challenges not present in regular domains, like rectangular grids. Despite these complexities, the physics governing these PDEs typically relies on local interactions and remains independent of the coordinate system. In this talk, we will demonstrate how neural operators can be designed to solve PDEs on general geometries by leveraging graph-based methods that incorporate these physics priors. We will also explore various applications, such as learning nonlocal constitutive models and providing surrogate solutions to accelerate convergence toward accurate results." 
+      bio: "Jiequn Han is a Research Scientist in the Center for Computational Mathematics, Flatiron Institute, Simons Foundation. He conducts research on machine learning for science, drawing inspiration from various scientific disciplines and focusing on solving high-dimensional problems in scientific computing, primarily those related to PDEs."
+      company: "Flatiron Institute" 
+      link:
+        href: "https://users.flatironinstitute.org/~jhan/"
+        #text: "@linus"
+      presentation:
+        title: "Jiequn Han" # Speaker Name
+        time: "Friday 10h00-10h40"
 
 
-    - name: "Time: 10h40-11h20" # Name Surname
+    - name: "TBA" # Name Surname
       photo: "/img/Serina.jpg"
       # url: "www.example.org"
       # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
@@ -90,7 +205,52 @@ params:
         #text: "@linus"
       presentation:
         title: "Serina Chang" # Speaker Name
-        # time: "Thursday 13h30-14h10"
+        time: "Friday 10h40-11h20"
+
+    - name: "Lunch Break and Social(lunch not provided)"
+      time: "Friday 11h20-13h00"
+
+    - name: "TBA" # Name Surname
+      photo: "/img/alberto.jpg"
+      # url: "www.example.org"
+      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
+      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
+      company: "Flatiron Institute"
+      link:
+        href: "https://alberto.bietti.me/"
+        #text: "@linus"
+      presentation:
+        title: "Alberto Bietti" # Speaker Name
+        # time: "Friday 13h00-13h40"
+
+    - name: "Learning Scalable Diffusion Models using Optimality and Constraint Structures"
+      photo: "/img/guan-horng.png"
+      # url: ""
+      abstract: "Generative AI has made remarkable strides in recent years, largely propelled by the development of diffusion models. However, the successes of diffusion models largely rely on the structure of the data-to-noise diffusion processes, posing challenges for more general distribution matching problems beyond generative modeling. In this talk, I will present some of my recent works on learning scalable diffusion models for general distribution matching. Specifically, I will demonstrate how optimality and constraint structures can serve as a principled way for algorithmic design, generalizing those used in training denoising diffusion models, and achieve superior performance in image restoration, unsupervised image translation, and watermarked image generation."
+      bio: "Guan-Horng Liu is a Research Scientist at Fundamental AI Research (FAIR) at Meta in NY. He holds a Ph.D. in Machine Learning from Georgia Tech, where he was supervised by Evangelos Theodorou, and a M.S. in Robotics from Carnegie Mellon University. His research lies in fundamental algorithms for learning diffusion models with optimality structures, with the goals of enhancing theoretical understanding and developing large-scale algorithms for novel applications. His papers have been awarded with spotlight and oral presentations in ICLR, ICML, NeurIPS. He was supported by the Graduate Fellowship from the School of Aerospace Engineering at Georgia Tech."
+      company: "Meta" 
+      link:
+        href: "https://ghliu.github.io/"
+        #text: "@linus"
+      presentation:
+        title: "Guan-Horng Liu" # Speaker Name
+        time: "Friday 13h40-14h20"
+
+    - name: "Coffee Break"
+      time: "Friday 14h20-14h40"
+
+    - name: "Time: 14h40-15h20" # Name Surname
+      photo: "/img/wei.jpeg"
+      # url: "www.example.org"
+      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
+      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
+      company: "Morgan Stanley"
+      link:
+        href: "https://www.weideng.org/"
+        #text: "@linus"
+      presentation:
+        title: "Wei Deng" # Speaker Name
+        # time: "Friday 14h40-15h20"
 
 
     - name: "Time: 15h50-16h30" # Name Surname
@@ -104,136 +264,23 @@ params:
       #  text: "WebPage"
       presentation:
         title: "Shubhendu Trivedi" #Speaker Name
-        # time: "Thursday 10h10-10h50"
-
-    - name: "Coffee Break"
-      time: "Thursday 10h50-11h10"
-
-    - name: "Time: 13h40-14h20"
-      photo: "/img/guan-horng.png"
-      # url: ""
-      abstract: "Generative AI has made remarkable strides in recent years, largely propelled by the development of diffusion models. However, the successes of diffusion models largely rely on the structure of the data-to-noise diffusion processes, posing challenges for more general distribution matching problems beyond generative modeling. In this talk, I will present some of my recent works on learning scalable diffusion models for general distribution matching. Specifically, I will demonstrate how optimality and constraint structures can serve as a principled way for algorithmic design, generalizing those used in training denoising diffusion models, and achieve superior performance in image restoration, unsupervised image translation, and watermarked image generation."
-      bio: "Guan-Horng Liu is a Research Scientist at Fundamental AI Research (FAIR) at Meta in NY. He holds a Ph.D. in Machine Learning from Georgia Tech, where he was supervised by Evangelos Theodorou, and a M.S. in Robotics from Carnegie Mellon University. His research lies in fundamental algorithms for learning diffusion models with optimality structures, with the goals of enhancing theoretical understanding and developing large-scale algorithms for novel applications. His papers have been awarded with spotlight and oral presentations in ICLR, ICML, NeurIPS. He was supported by the Graduate Fellowship from the School of Aerospace Engineering at Georgia Tech."
-      company: "Meta" 
-      link:
-        href: "https://ghliu.github.io/"
-        #text: "@linus"
-      presentation:
-        title: "Guan-Horng Liu" # Speaker Name
-        # time: "Thursday 11h10-12h10"
-
-
-    - name: "Lunch Break and Social(lunch not provided)"
-      time: "Thursday 12h10-13h30"
-
-    - name: "Time: 10h00-10h40" # Name Surname
-      photo: "/img/jiequan.png"
-      # url: "www.example.org"
-      abstract: "Many partial differential equations (PDEs) of interest in science and engineering are strongly shaped by the underlying geometry, with data often represented on unstructured meshes and various coordinate systems in use. These factors create challenges not present in regular domains, like rectangular grids. Despite these complexities, the physics governing these PDEs typically relies on local interactions and remains independent of the coordinate system. In this talk, we will demonstrate how neural operators can be designed to solve PDEs on general geometries by leveraging graph-based methods that incorporate these physics priors. We will also explore various applications, such as learning nonlocal constitutive models and providing surrogate solutions to accelerate convergence toward accurate results." 
-      bio: "Jiequn Han is a Research Scientist in the Center for Computational Mathematics, Flatiron Institute, Simons Foundation. He conducts research on machine learning for science, drawing inspiration from various scientific disciplines and focusing on solving high-dimensional problems in scientific computing, primarily those related to PDEs."
-      company: "Flatiron Institute" 
-      link:
-        href: "https://users.flatironinstitute.org/~jhan/"
-        #text: "@linus"
-      presentation:
-        title: "Jiequn Han" # Speaker Name
-        # time: "Thursday 13h30-14h10"
-
-    - name: "Time: 13h00-13h40" # Name Surname
-      photo: "/img/alberto.jpg"
-      # url: "www.example.org"
-      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
-      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
-      company: "Flatiron Institute"
-      link:
-        href: "https://alberto.bietti.me/"
-        #text: "@linus"
-      presentation:
-        title: "Alberto Bietti" # Speaker Name
-        # time: "Thursday 13h30-14h10"
-
-    - name: "Time: 11h10-12h00" # Name Surname
-      photo: "/img/bryan.jpg"
-      # abstract: "Graphs are powerful tools for representing complex real-world relationships, essential for tasks like analyzing social networks or identifying financial trends.  While large language models (LLMs) have revolutionized natural text reasoning, their application to graphs remains an understudied frontier. To bridge this gap, we need to transform structured graph data into representations LLMs can process. This talk delves into our work on finding the correct graph inductive bias for Graph ML and developing strategies to convert graphs into language-like formats for LLMs. I'll explore our work on “Talking Like a Graph”, and our parameter-efficient method, GraphToken, which learns an encoding function to extend prompts with explicit structured information." 
-      # bio: "Bryan Perozzi is a Research Scientist in Google Research’s Algorithms and Optimization group, where he routinely analyzes some of the world’s largest (and perhaps most interesting) graphs.  Bryan’s research focuses on developing techniques for learning expressive representations of relational data with neural networks.  These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets.  
-# Bryan is an author of 40+ peer-reviewed papers at leading conferences in machine learning and data mining (such as NeurIPS, ICML, ICLR, KDD, and WWW).  His doctoral work on learning network representations (DeepWalk) was awarded the prestigious SIGKDD Dissertation Award.  Bryan received his Ph.D. in Computer Science from Stony Brook University in 2016, and his M.S. from the Johns Hopkins University in 2011."
-      company: "Google Research"
-      link:
-        href: "http://www.perozzi.net/"
-        #text: "@linus"
-      presentation:
-        title: "Bryan Perozzi" # Speaker Name
-        # time: "Thursday 13h30-14h10"
-
-
-    - name: "Time: 9h00-9h40" # Name Surname
-      photo: "/img/clayton.png"
-      # url: "www.example.org"
-      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
-      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
-      company: "Google Research"
-      link:
-        href: "https://claytonsanford.com/"
-        #text: "@linus"
-      presentation:
-        title: "Clayton Sanford" # Speaker Name
-        # time: "Thursday 13h30-14h10"
-
-
-    - name: "Time: 13h30-14h10" # Name Surname
-      photo: "/img/rajesh.jpg"
-      # url: "www.example.org"
-      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
-      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
-      company: "Google Research"
-      link:
-        href: "https://rajeshjayaram.com/"
-        #text: "@linus"
-      presentation:
-        title: "Rajesh Jayaram" # Speaker Name
-        # time: "Thursday 13h30-14h10"
-
-    - name: "Time: 9h30-10h10" # Name Surname
-      photo: "/img/nathan.png"
-      # url: "www.example.org"
-      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
-      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
-      company: "Genentech"
-      link:
-        href: "https://ncfrey.github.io/"
-        #text: "@linus"
-      presentation:
-        title: "Nathan Frey" # Speaker Name
-        # time: "Thursday 13h30-14h10"
-
-    - name: "Time: 14h40-15h20" # Name Surname
-      photo: "/img/wei.jpeg"
-      # url: "www.example.org"
-      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
-      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
-      company: "Morgan Stanley"
-      link:
-        href: "https://www.weideng.org/"
-        #text: "@linus"
-      presentation:
-        title: "Wei Deng" # Speaker Name
-        # time: "Thursday 13h30-14h10"
+        # time: "Friday 15h20-16h00"
 
 
 
 
-    - name: "Time: 15h10-15h50" # Name Surname
-      photo: "/img/huzefa.jpeg"
-      # url: "www.example.org"
-      # abstract: "In this talk, He will be discussing the problem of defining generative models on manifolds. Designing a general recipe for training probabilistic models that works immediately on a wide selection of manifolds has been a difficult challenge, with some naive approaches ignoring the topology of the manifold, suffering from algorithmic complexities, or resulting in biased training objectives. He will introduce his recent work on Riemannian Flow Matching (RFM), a simple yet powerful framework for training continuous normalizing flows on manifolds, which bypasses many inherent limitations and offers several advantages over previous approaches: it is simulation-free on simple geometries, does not suffer from scaling difficulties, and its objective is a simple regression with closed-form target vector fields. The key ingredient behind RFM is the construction of a relatively simple premetric for defining target vector fields, which generalizes the existing Euclidean case. To extend to general geometries, we propose the use of spectral decompositions to efficiently compute premetrics on the fly. Our method achieves state-of-the-art performance on many real-world non-Euclidean datasets, and we demonstrate tractable training on general geometries, including triangular meshes with highly non-trivial curvature and boundaries."
-      # bio: "Ricky Tian Qi Chen is a Research Scientist at FAIR, Meta based in New York. His research is on building simplified abstractions of the world through the lens of dynamical systems and flows. He generally works on integrating structured transformations into probabilistic modeling, with the goal of improved interpretability, tractable optimization, or extending into novel areas of application."
-      company: "Amazon"
-      link:
-        href: "https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en"
-        #text: "@linus"
-      presentation:
-        title: "Huzefa Rangwala" # Speaker Name
-        # time: "Thursday 13h30-14h10"
+
+
+
+
+
+
+
+
+
+
+
+
 
 #     - name: "Hyperbolic Brain Network Representations for Subjective Cognitive Decline
 # Prediction and Detecting Healthy Brain Aging Trajectories" # Name Surname
