@@ -95,9 +95,9 @@ params:
     - name: "Coffee Break"
       time: "Thursday 10h50-11h10"
 
-    - name: "TBA" # Name Surname
+    - name: "Challenges and Solutions in Applying Graph Neural Networks at Google" # Name Surname
       photo: "/img/bryan.jpg"
-      abstract: "TBA" 
+      abstract: "In this talk I'll look back at some challenges and lessons learned over the past seven years of applying GNNs to a wide variety of problems at Google.  Interestingly, although the field has made substantial progress, many (if not all) of these challenges still remain." 
       bio: "Bryan Perozzi is a Research Scientist in Google Research’s Algorithms and Optimization group, where he routinely analyzes some of the world’s largest (and perhaps most interesting) graphs.  Bryan’s research focuses on developing techniques for learning expressive representations of relational data with neural networks.  These scalable algorithms are useful for prediction tasks (classification/regression), pattern discovery, and anomaly detection in large networked data sets. # Bryan is an author of 40+ peer-reviewed papers at leading conferences in machine learning and data mining (such as NeurIPS, ICML, ICLR, KDD, and WWW).  His doctoral work on learning network representations (DeepWalk) was awarded the prestigious SIGKDD Dissertation Award.  Bryan received his Ph.D. in Computer Science from Stony Brook University in 2016, and his M.S. from the Johns Hopkins University in 2011. "
       company: "Google Research"
       link:
